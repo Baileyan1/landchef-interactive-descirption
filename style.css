@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700|Roboto:100,300,400,700&display=swap');
+
+:root {
+    --dunkelblau: #203959;
+    --hellblauSecondary: #55DDE6;
+    --mittelgrünPrimary: #57CF95;
+    --hellgrünTertiary: #B2DB51;
+    --dunkelgrün: #B2DB51;
+    --dunkelgrau: #6A6A6A;
+    --mittelgrau: #C8C7C7;
+    --hellgrau: #EAEAEA;
+    --fontcolor: #121212;
+}
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.nav {
+    background-color: var(--mittelgrünPrimary);
+    color: var(--dunkelblau);
+    list-style: none;
+    text-align: right;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.nav li{
+    display: inline-block;
+    padding-right: 50px;
+    font-family: "Nunito Sans", regular;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: var(--dunkelblau);
+}
+
+.nav li a:hover{
+    background-color: var(--dunkelblau);
+    color: white;
+}
+
+#container{
+    background-color: var(--dunkelblau);
+    margin: 0 auto;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    line-height: 5em;
+    margin: 0;
+}
+
+header img{
+    text-align: left;
+    margin-top: 70px;
+    padding: 0;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    text-align: center;
+    font-family: "Nunito Sans", regular;
+    color: var(--dunkelgrau);
+}
+
+.zitat{
+    margin: 0 20% 0 20%;
+    padding: 30%;
+}
+
+.aussage{
+    padding: 10%;
+}
+
+
+#test{
+    width: 1000px;
+    float: left;
+    padding-left: 10px;
+}
+
+/* besser Artikel nicht ineinander*/
+article{
+}
+
+.links{
+    width: 42%;
+    float: left;
+    background-color: #57CF95;
+    padding: 50px;
+}
+.rechts{
+    width: 43%;
+    float: right;
+    background-color: var(--hellgrünTertiary);
+    padding: 50px;
+}
+
+.zweiBoxen{
+    clear: both;
+}
+
+footer{
+    background-color: var(--hellgrau);
+    color: var(--mittelgrau);
+    clear: both;
+    padding-left: 10px;
+   
+}
+
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular;
+   
+}
+
+h2{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular;
+}
+
+p{
+    font-family: "Roboto", regular;
+}
+
+input, textarea{
+    display: block;
+    margin: 5px 0;
+}
+
+form{
+    margin-top: 10px;
+}
+
+li{
+    margin: 0px;
+}
