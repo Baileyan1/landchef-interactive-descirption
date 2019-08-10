@@ -83,8 +83,13 @@ header p{
     padding: 30%;
 }
 
-.aussage{
+.aussageL{
     padding: 10%;
+    text-align: left;
+}
+.aussageR{
+    padding: 10%;
+    text-align: right;
 }
 
 
