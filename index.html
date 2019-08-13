@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>landchef</title>
     <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-    <nav class="nav">
-        <img src="pictures/Logo.png" width=40px alt="Logo">
-        <ul>
-            <li><a href= "#">Landwirt</a></li>
-            <li><a href= "#">Projekt landchef</a></li>
-            <li><a href= "#">Gastronom</a></li>
-        </ul>
-    </nav>
-   
-        <header>
-            <img src="pictures/Logo.png" alt="Logo">
+        <header> 
+            <img src="pictures/Logo.png" alt="Logo" id="lImg" >
             <h1>landchef</h1>
-            <p>Was für einen Betrieb hast du?</p>
         </header>
-       
+        <div class=clearfix>
+                <div class="Landwirt" >
+                    <img src="pictures/right-arrow.svg" alt="Pfeil" class="pfeilLandwirt">
+                    <img src="pictures/tractor.svg" alt="tractor" class="nav">
+                 </div>  
+                 <div class="question">
+                     <p>Was für einen Betrieb hast du?</p>
+                </div>
+                <div class="Gastronom" >
+                    <img src="pictures/Chef.svg" alt="Chefmütze" class="nav">
+                    <img src="pictures/right-arrow.svg" alt="Pfeil" class="nav">
+                 </div>
+            </div>
         <img src="pictures/Illustration-blue – 2@3x.png" alt="Illustration-" width="100%">
+
+        <!-- anpassen --> 
+        <h1>weiterlesen</h1>
+
+
+       <!-- Header Ende --> 
 
         <div class="aussageL">
            <h2>Ein Konzept, das auf Partnerschaft basiert …</h2>
@@ -36,20 +44,103 @@
 
         <img src="pictures/Markplatz2.jpeg" alt="Viele Äpfel" width="100%">
 
+        <blockquote class="einleitung">
+            Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.
+        </blockquote>
 
-        <div class=zweiBoxen>
+        <div id="trailer">
+            <h1>Trailer</h1>
+        </div>
+
+        <!--Das konzept von landchef - interaktions Kreis-->
+
+        <h2>Das Konzept von landchef</h2>
+
+        <div class="aufteilung" class="clearfix" >
+            <div class="aufLinks">
+                <!--Grafik-->
+                <p>test</p>
+            </div>
+            
+                <!--Texte-->
+            <div class="aufRechts" >
+                <h3>Philosophie</h3>
+                <p>Die landchef Philosophie beruht zum einen darauf, die Region zu stärken und Persönlichkeit und Wertschätzung unter den Menschen zu fördern. Daher ist die landchef Partnerschaft die Grundlage für das landchef Konzept. <br> anderen möchte landchef Landwirte in ihrer Arbeit unterstützten und über die Direktvermarktung Alternativen für ein sicheres Einkommen erleichtern. Dabei legt das landchef Team besonderen Wert, den Menschen stupide Arbeit abzunehmen, um Zeit für persönliche Arbeit und Beziehungen zu schenken. <br> Außerdem möchte das landchef Team als Vorbild fungieren und partnerschaftlich mit seinen eigenen Kunden umgehen. So erhält Ehrlichkeit eine besondere Bedeutung in der Gestaltung des landchef Konzepts.
+                </p>
+            </div>
+
+        </div>
+
+   
+        <!-- Grün Blau Box -->
+        <div class="zweiBoxen" class=clearfix>
             <article class="links">
-                <h2>test</h2> 
-                <p>Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.</p>
+                <h2>Vorteile für Landwirten</h2> 
+                <ul>
+                    <li>Regelmäßige Bestellungen</li>
+                    <li>Potentielle und gezielte Kunden</li>
+                    <li>Wertschätzung gegenüber Ware und Arbeit</li>
+                    <li>Kundentreue und Zahlungsmoral</li>
+                    <li>Aktualität – mit der Zeit gehen</li>
+                    <li>Offen für Neues (Herausforderung)</li>
+                </ul>  
              </article>  
              <article class="rechts">
-                <h2>test</h2> 
-                <p>Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.</p>
+                <h2>Vorteile für Gastronomen</h2> 
+                <ul>
+                    <li>Regionale qualitative Produkte</li>
+                    <li>Zuverlässigkeit</li>
+                    <li>Persönlicher Ansprechpartner</li>
+                    <li>Inspiration für neue innovative Ideen</li>
+                    <li>Wissen & Erfahrungen teilen</li>
+                    <li>Gemeinsam den Wert der Regionalität hochhalten</li>
+                </ul>  
             </article>
         </div>
-            <article> 
+
+        <blockquote>
+            Das Konzept der Partnerschaft ist nicht für jeden das richtige. Hierbei liegt vor allem im Fokus, Werte und Dienstleistungen in dem Verkaufsprozess zu integrieren und mit einer hohen Priorität zu versehen. <br> Im Vordergrund steht, dass der Landwirt nicht nur seine Ware anbietet und verkauft, sondern auch sein Wissen, seine Geschichte und seine Werte in eine Dienstleistung verpackt. Darunter gehören Pünktlichkeit und Zuverlässigkeit, Sortimentabstimmung, Flexibilität, sowie empfohlenerweise Innovationsfähigkeit. Das Konzept unterstützt dabei die Regionalität, Wertschätzung und Nachhaltigkeit der Waren.
+        </blockquote>
+
+        <!--unbedingt aufhübschen-->
+        <img src="pictures/Bestellabwicklung.jpg" alt="Bestellabwicklungsprozess" width="100%">
+
+        <div class="einzelneBox grün">
+            <p>
+                Auf der Suche der Landwirte nach neuen Absatzmärkten und der Nachfrage der Gastronomen nach lokalen Waren begegnen beide einem umständlichen Bestellprozess.
+            </p>
+        </div >
+
+        <div class="abstand">
+            <h2 class="reinerText">
+                Direktvermarktung
+            </h2>
+            <p class="reinerText">
+                Direktvermarktung stellt für Landwirte einen attraktiven Markt dar. Sie können ihre Produkte zu höheren Preisen direkt an ihre Kunden bringen. Die Ware kann so ohne Umwege und Zwischenhändler an die Kunden gelangen und der Landwirt erhält den gesamten Umsatz.
+                Für Gastronomen ist der direkte Bezug ein ebenso attraktives wie notwendiges Unterfangen. Der Trend geht bei Konsumenten klar in Richtung lokaler Lebensmittel und Gastronomien aller Art versuchen diesem Wunsch nachzukommen. <br>
+                Für Gastronomen wie Landwirte ist es jedoch zu Beginn oft schwierig, die passenden Geschäftspartner zu finden. Besonders für Landwirte ist es oftmals schwierig mit Rückgrat hinter ihren Produkten zu stehen und einen angemessenen Preis zu verlangen.
+                Der Bestellprozess in der Direktvermarktung ist zurzeit noch recht aufwändig. Kunden bestellen per Telefon, Fax, Email oder Whatsapp. Es fehlt an einem einzigen Kanal, der Bestellungen bündeln und für Landwirte übersichtlich darstellen kann.
+            </p>
+         </div>
+
+         <div class="wert">
+            <img src="pictures/Wertschöpfungskette2.jpg" alt="Wertschöpfungskette" class="wert">
+        </div>
+        <div class="einzelneBox blau">
+                <p>
+                    Partner statt Kunden.
+                </p>
+            </div >
+
+
+
+
+        <article> 
             <!-- image einfügen-->
             <img src="/Users/jen/Documents/Bachelor/Bachelor Projekt/interaktive Darstellung/landchef-interactive-description/landchef-interactive-descirption/pictures/Wein.jpeg" width="100%"/>
+
+
+
             <h4>Listen</h4>
             <ol>
                 <li>nummer 1</li>

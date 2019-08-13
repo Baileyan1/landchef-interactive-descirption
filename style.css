@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700|Roboto:100,300,400,700&display=swap');
 
+.zweiBoxen.clearfix:before,
+.clearfix:after {
+content: ” “;
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+content: ” “;
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
+
+/*.left {
+float: left;
+width: 33%;
+}*/
+
 :root {
     --dunkelblau: #203959;
     --hellblauSecondary: #55DDE6;
@@ -17,6 +46,7 @@ body{
   
 }
 
+/*
 .nav {
     background-color: var(--mittelgrünPrimary);
     color: var(--dunkelblau);
@@ -47,42 +77,100 @@ body{
 .nav li a:hover{
     background-color: var(--dunkelblau);
     color: white;
-}
+} */
 
 #container{
     background-color: var(--dunkelblau);
     margin: 0 auto;
 }
 
-header{
-    background-color: white;
-    text-align: center;
-    line-height: 5em;
-    margin: 0;
-}
-
-header img{
-    text-align: left;
-    margin-top: 70px;
-    padding: 0;
-}
-
-header h1{
-    margin: 0;
-    padding: 0;
-}
-
-header p{
-    text-align: center;
+/*----------------------Schriften-------------------*/
+h1 {
+    color: var(--dunkelblau);
     font-family: "Nunito Sans", regular;
-    color: var(--dunkelgrau);
+    text-align: center;
+    margin-top: 60px;  
 }
+h2{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular;
+}
+h3{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular; 
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "Roboto", regular;
+    font-size: 12pt;
+}
+ul{
+    font-family: "Roboto", regular;
+    font-size: 12pt;
+
+}
+
+
+/*----------------------header----------------------------*/
+header{
+  /* background-color: white; */
+    text-align: center;
+    margin: 0;
+    background-image: url(pictures/unscharfeKuh.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;;
+}
+.headerImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#lImg{
+   margin-top: 30px;
+   width: 20%;
+}
+.Landwirt{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 29%;
+    float: left;
+}
+.pfeilLandwirt{
+    transform:rotate(180deg);
+    width: 70px;
+}
+.question{
+    text-align: center;
+    color: var(--dunkelgrau);
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+}
+.question p{
+    font-size: 20pt;
+    font-family: "Nunito Sans", regular;
+}
+.Gastronom{
+    text-align: right;
+    margin-top: 20px;
+    width: 20%;
+    position: relative;
+    right: 10px;
+    float: right;
+}
+.nav{
+    width: 70px;
+}
+
+/*----------------------Einleitung-------------------*/
+
 
 .zitat{
     margin: 0 20% 0 20%;
     padding: 30%;
 }
-
 .aussageL{
     padding: 10%;
     text-align: left;
@@ -92,60 +180,149 @@ header p{
     text-align: right;
 }
 
+blockquote{
+    width: 50%;
+    text-align: center;
+    color: #5c4c40;
 
-#test{
-    width: 1000px;
-    float: left;
+    font-family: "Roboto", regular;
+    font-size: 16pt;
     padding-left: 10px;
+    margin:200px auto;
+    line-height: 2;
 }
+
+.einleitung{
+    border-left: 3px solid #897860; 
+}
+
+#trailer{
+ margin: 200px;
+ border:3px solid #121212;
+ padding: 250px;
+}
+
+/*----------------------landchef Konzept Ausrichtung-------------------*/
+
+.aufteilung div, .aufteilung h2, .aufteilung p{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.aufteilung p{
+    width: 80%;
+    margin-bottom: 250px;
+}
+
+.aufLinks{
+  
+/* BIlder einfügen und anpassen*/
+}
+
+
+
+
+
+/*----------------------Grün Blau Boxen-------------------*/
 
 /* besser Artikel nicht ineinander*/
-article{
-}
-
-.links{
-    width: 42%;
+.zweiBoxen article, .zweiBoxen p{
     float: left;
-    background-color: #57CF95;
-    padding: 50px;
+    width: 50%;
+    margin-bottom: 200px;
 }
-.rechts{
-    width: 43%;
-    float: right;
-    background-color: var(--hellgrünTertiary);
-    padding: 50px;
+.links{ 
+    background-color: #57CF95; 
+}
+.rechts{ 
+    background-color: var(--dunkelblau);   
+}
+.links h2 {
+    padding-left: 20%;
+    padding-top: 10%;
+    text-align: left;
+}
+.rechts h2{
+    padding-left: 20%;
+    padding-top: 10%;
+    text-align: left;
+    color: var(--mittelgrünPrimary);
+}
+.links ul{
+    padding-left: 25%;
+    padding-bottom: 10%;
+    color: var(--dunkelblau);
 }
 
-.zweiBoxen{
-    clear: both;
+.rechts ul{
+    padding-left: 25%;
+    padding-bottom: 10%;
+    color: var(--mittelgrünPrimary);
+
 }
+
+/*----------------------Einzelne Box-------------------*/
+
+.einzelneBox{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  
+}
+.einzelneBox p{
+    padding: 20%;
+    text-align: center;
+   
+    font-family: "Nunito Sans", regular;
+    font-size: 25pt;
+    line-height: 1.5;
+}
+
+.einzelneBox.grün{
+    background-color: var(--mittelgrünPrimary); 
+    color: var(--dunkelblau);
+}
+.einzelneBox.blau{
+    background-color: var(--dunkelblau); 
+    color: var(--mittelgrünPrimary);
+}
+
+
+/*----------------------Reiner Text-------------------*/
+.reinerText{
+    padding-left: 20%;
+    width: 60%;
+    column-width: 300px;
+}
+.abstand{
+    margin-bottom: 150px;
+}
+
+
+/*----------------------zentriertes Bild-------------------*/
+.wert{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    
+
+/*----------------------Fußzeile-------------------*/
 
 footer{
     background-color: var(--hellgrau);
     color: var(--mittelgrau);
     clear: both;
     padding-left: 10px;
-   
+  
 }
 
-h1,h2{
-    margin: 0;
-    padding: 0;
-}
+/*----------------------aus Erklärvideo 1-------------------*/
 
-h1 {
-    color: var(--dunkelblau);
-    font-family: "Nunito Sans", regular;
-   
-}
-
-h2{
-    color: var(--dunkelblau);
-    font-family: "Nunito Sans", regular;
-}
-
-p{
-    font-family: "Roboto", regular;
+#test{
+    width: 1000px;
+    float: left;
+    padding-left: 10px;
 }
 
 input, textarea{
