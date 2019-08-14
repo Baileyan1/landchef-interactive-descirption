@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700|Roboto:100,300,400,700&display=swap');
 
+/* 
+cooler Kreis Effekt
+/*
+.circle {
+  position:relative;
+  cursor:pointer;
+  margin:0 auto;
+  width:220px;
+  height:220px;
+  overflow:hidden;
+  transform:translateZ(0)
+}
+
+.circle:before {
+  border-radius:50%;
+  content:"";
+  position:absolute;
+  top:0; left:0;
+  width:inherit;
+  height:inherit;
+  box-shadow:
+      inset 150px 0 0 hsla(230,80%,70%,0.6), 
+      inset 0 150px 0 hsla(230,80%,70%,0.6), 
+      inset -150px 0 0 hsla(230,80%,70%,0.6), 
+      inset 0 -150px 0 hsla(230,80%,70%,0.6);
+  transition:box-shadow 0.75s
+}
+
+.circle:hover:before{ 
+  box-shadow:
+      inset 36px 0 0 hsla(90,50%,40%,0.4),
+      inset 0 36px 0 hsla(240,50%,40%,0.2), 
+      inset -36px 0 0 hsla(300,50%,40%,0.2), 
+      inset 0 -36px 0 hsla(60,50%,40%,0.2)
+}
+
+*/
+
+
 .zweiBoxen.clearfix:before,
 .clearfix:after {
 content: ” “;
@@ -216,7 +255,18 @@ blockquote{
 
 .aufLinks{
   
-/* BIlder einfügen und anpassen*/
+/* Bilder einfügen und anpassen*/
+}
+
+.bildAufRechts{
+    position: absolute;
+}
+
+.bildAufRechts img{
+    position: relative;
+    top: -200px;
+    left: 60%;
+    width: 60%;
 }
 
 
@@ -229,13 +279,19 @@ blockquote{
 .zweiBoxen article, .zweiBoxen p{
     float: left;
     width: 50%;
-    margin-bottom: 200px;
+    margin-bottom: 200px;  
 }
+.shadow{
+    box-shadow: 10px 10px 15px silver;
+}
+
 .links{ 
     background-color: #57CF95; 
+    height: 400px;
 }
 .rechts{ 
     background-color: var(--dunkelblau);   
+    height: 400px;
 }
 .links h2 {
     padding-left: 20%;
@@ -258,33 +314,137 @@ blockquote{
     padding-left: 25%;
     padding-bottom: 10%;
     color: var(--mittelgrünPrimary);
+}
+
+.links p{
+    padding-left: 20%;
+    padding-bottom: 7%;
+    color: var(--dunkelblau);
+    text-align: center;
+}
+.rechts p{
+    padding-left: 20%;
+    padding-bottom: 0%;
+    color: var(--mittelgrünPrimary);
+    text-align: center;
+}
+
+.vision{ 
+    background-color: var(--mittelgrünPrimary); 
+    height: 400px;
+}
+.mission{ 
+    background-color: var(--dunkelblau);   
+    height: 400px;
+}
+.vision h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+.mission h2{
+    padding-top: 10%;
+    text-align: center;
+    color: var(--mittelgrünPrimary);
+}
+
+.vision p{
+    padding-left: 25%;
+    padding-bottom: 7%;
+    color: var(--dunkelblau);
+    text-align: center;
+}
+.mission p{
+    padding-left: 25%;
+    padding-bottom: 0%;
+    color: var(--mittelgrünPrimary);
+    text-align: center;
+}
+
+
+/*----------------------Gründer Team-------------------*/
+
+
+.jenny{
+    box-shadow: 10px 10px 15px silver;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+.paddi{
+    box-shadow: 10px 10px 15px silver;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 50px;
+    
+}
+
+.jenny h2, .paddi h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+/*----------------------Preis Modell------------------*/
+
+.price article{
+    width: 33%;
+    text-align: center;
+    
 
 }
+.price article div{
+    border-color: var(--hellblauSecondary);
+    border-width: 1px;
+    border-style: solid;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.price p{
+   width: 80%;
+   padding: 30px;
+   margin-bottom: 50px;
+   text-align: left;
+}
+
 
 /*----------------------Einzelne Box-------------------*/
 
 .einzelneBox{
     width: 100%;
+    height: 500px;
     margin-top: 200px;
     margin-bottom: 200px;
+
+    /*rein oder raus??????????????*/
+    box-shadow: 10px 10px 15px silver;
   
 }
 .einzelneBox p{
-    padding: 20%;
-    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
    
     font-family: "Nunito Sans", regular;
     font-size: 25pt;
     line-height: 1.5;
 }
-
 .einzelneBox.grün{
     background-color: var(--mittelgrünPrimary); 
     color: var(--dunkelblau);
+    text-align: center;
 }
 .einzelneBox.blau{
     background-color: var(--dunkelblau); 
     color: var(--mittelgrünPrimary);
+    text-align: left;
 }
 
 
@@ -297,14 +457,32 @@ blockquote{
 .abstand{
     margin-bottom: 150px;
 }
+.umsetzung{
+    margin-bottom: 200px;
+}
 
+.linkerText div, .linkerText h3, .linkerText p{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-left: 50px;
+}
+.linkerText p{
+    width: 90%;
+    margin-bottom: 400px;
+    width: 40%;
+    margin-right: 200px;
+}
 
 /*----------------------zentriertes Bild-------------------*/
 .wert{
     width: 80%;
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    margin-bottom: 250px;
+}
+   
     
 
 /*----------------------Fußzeile-------------------*/
