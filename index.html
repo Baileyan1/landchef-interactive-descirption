@@ -4,33 +4,40 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name = "description" content = "Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.">
+    <meta name = "author" content = "landchef">
     <title>landchef</title>
     <link href="style.css" rel="stylesheet"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    
+
 </head>
 <body>
+   
+    <!--Hauptseite-->
+    <div>
         <header> 
             <img src="pictures/Logo.png" alt="Logo" id="lImg" >
             <h1>landchef</h1>
         </header>
-        <div class=clearfix>
-                <div class="Landwirt" >
+            <div class="wrapperHeader">
+                <div>
                     <img src="pictures/right-arrow.svg" alt="Pfeil" class="pfeilLandwirt">
                     <img src="pictures/tractor.svg" alt="tractor" class="nav">
-                 </div>  
-                 <div class="question">
-                     <p>Was für einen Betrieb hast du?</p>
+                </div>  
+                <div class="question">
+                    <p>Was für einen Betrieb hast du?</p>
                 </div>
-                <div class="Gastronom" >
+                <div>
                     <img src="pictures/Chef.svg" alt="Chefmütze" class="nav">
                     <img src="pictures/right-arrow.svg" alt="Pfeil" class="nav">
-                 </div>
+                </div>
             </div>
         <img src="pictures/Illustration-blue – 2@3x.png" alt="Illustration-" width="100%">
 
         <!-- anpassen --> 
         <h1>weiterlesen</h1>
-
-
+    </div>
        <!-- Header Ende --> 
 
         <div class="aussageL">
@@ -56,22 +63,39 @@
 
         <h2>Das Konzept von landchef</h2>
 
-        <div class="aufteilung" class="clearfix" >
-            <div class="aufLinks">
-                <!--Grafik-->
-                <p>test</p>
+        <div class="aufteilung">
+            <div class="linkeSeite">
+                <!--Grafiken-->
+                <img src="pictures/yin-and-yang.svg" alt="" class="philosophie">
+                <h4 class="philosophie">Philosophie</h4>
+                <img src="pictures/partner.svg" alt="" class="partner">
+                <h4 class="partner">Partnerschaft</h4>
+                <img src="pictures/conversation.svg" alt="" class="community">
+                <h4 class="community">Community</h4>
+                <img src="pictures/settings-gears.svg" alt="" class="prozess">
+                <h4 class="prozess">Prozess-<br>vereinfachung</h4>
+                <img src="pictures/yin-and-yang.svg" alt="" class="mitte">
+                <img src="pictures/ui.svg" alt="" class="ui">
+                <h4 class="ui">Nutzererlebnis</h4>
+                <img src="pictures/choice.svg" alt="" class="abo">
+                <h4 class="abo">Abo-Modell</h4>
+                <img src="pictures/help.svg" alt="" class="service">
+                <h4 class="service">Service und<br> Funktionalität</h4>
+                
             </div>
                 <!--Texte-->
-            <div>
+            <div class="rechteSeite">
                 <h3>Philosophie</h3>
-                <p>Die landchef Philosophie beruht zum einen darauf, die Region zu stärken und Persönlichkeit und Wertschätzung unter den Menschen zu fördern. Daher ist die landchef Partnerschaft die Grundlage für das landchef Konzept. <br> anderen möchte landchef Landwirte in ihrer Arbeit unterstützten und über die Direktvermarktung Alternativen für ein sicheres Einkommen erleichtern. Dabei legt das landchef Team besonderen Wert, den Menschen stupide Arbeit abzunehmen, um Zeit für persönliche Arbeit und Beziehungen zu schenken. <br> Außerdem möchte das landchef Team als Vorbild fungieren und partnerschaftlich mit seinen eigenen Kunden umgehen. So erhält Ehrlichkeit eine besondere Bedeutung in der Gestaltung des landchef Konzepts.
+                <p>
+                    Die landchef Philosophie beruht zum einen darauf, die Region zu stärken und Persönlichkeit und Wertschätzung unter den Menschen zu fördern. Daher ist die landchef Partnerschaft die Grundlage für das landchef Konzept. <br> anderen möchte landchef Landwirte in ihrer Arbeit unterstützten und über die Direktvermarktung Alternativen für ein sicheres Einkommen erleichtern. Dabei legt das landchef Team besonderen Wert, den Menschen stupide Arbeit abzunehmen, um Zeit für persönliche Arbeit und Beziehungen zu schenken. <br> Außerdem möchte das landchef Team als Vorbild fungieren und partnerschaftlich mit seinen eigenen Kunden umgehen. So erhält Ehrlichkeit eine besondere Bedeutung in der Gestaltung des landchef Konzepts.
                 </p>
             </div>
         </div>
 
+
    
         <!-- Grün Blau Box -->
-        <div class="zweiBoxen clearfix">
+        <div class="zweiBoxen">
             <article class="links shadow">
                 <h2>Vorteile für Landwirten</h2> 
                 <ul>
@@ -274,6 +298,24 @@
                 <input id="submit" type="submit" value="Submit"/>
             </div>
 
-    <script src="script.js"></script>
-</body>
+    </div>
+
+
+
+
+       
+       
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script.js"></script>
+   
+
+        <!--
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+        <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+        
+            <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+        -->
+        
+    </body>
 </html>

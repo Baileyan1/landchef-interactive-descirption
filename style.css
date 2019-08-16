@@ -38,7 +38,7 @@ cooler Kreis Effekt
 
 */
 
-
+/*
 .zweiBoxen.clearfix:before,
 .clearfix:after {
 content: ” “;
@@ -82,8 +82,42 @@ width: 33%;
 body{
     margin: 0;
     padding: 0;
-  
 }
+
+/*-----------------------Slider ---------*/
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+/*-----------------------Slider Ende---------*/
+
 
 /*
 .nav {
@@ -133,6 +167,8 @@ h1 {
 h2{
     color: var(--dunkelblau);
     font-family: "Nunito Sans", regular;
+    padding-left: 20px;
+    margin-bottom: 40px;
 }
 h3{
     color: var(--dunkelblau);
@@ -161,47 +197,30 @@ header{
     background-repeat: no-repeat;
     height: 400px;;
 }
-.headerImage{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 #lImg{
-   margin-top: 30px;
-   width: 20%;
-}
-.Landwirt{
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 29%;
-    float: left;
+    margin-top: 30px;
+    width: 20%;
+ }
+
+.wrapperHeader{
+    display: flex;
+    /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+    justify-content: space-between; 
+    margin-top: 40px;
 }
 .pfeilLandwirt{
     transform:rotate(180deg);
     width: 70px;
 }
-.question{
-    text-align: center;
-    color: var(--dunkelgrau);
-    margin-top: 20px;
-    width: 40%;
-    float: left;
+.nav{
+    width: 70px;
 }
 .question p{
     font-size: 20pt;
     font-family: "Nunito Sans", regular;
+    color: var(--dunkelgrau);
 }
-.Gastronom{
-    text-align: right;
-    margin-top: 20px;
-    width: 20%;
-    position: relative;
-    right: 10px;
-    float: right;
-}
-.nav{
-    width: 70px;
-}
+
 
 /*----------------------Einleitung-------------------*/
 
@@ -237,40 +256,115 @@ blockquote{
 
 #trailer{
  margin: 200px;
- border:3px solid #121212;
+ border:3px solid var(--mittelgrau);
  padding: 250px;
+ border-radius: 4px;
 }
 
 /*----------------------landchef Konzept Ausrichtung-------------------*/
 
-.aufteilung div, .aufteilung h2, .aufteilung p{
-    float: left;
-    width: 50%;
-    text-align: left;
-}
-.aufteilung p{
-    width: 80%;
-    margin-bottom: 250px;
+.aufteilung{
+    display: flex;
+    margin-bottom: 50px;
 }
 
-.aufLinks{
-  
-/* Bilder einfügen und anpassen*/
+
+aufteilung div, .aufteilung h2, .aufteilung p{
+
+    
+ 
+} 
+
+.aufteilung p, .aufteilung h3{
+  padding-right: 20%;
+  padding-left: 15%;
 }
+
+.aufteilung h3{
+    padding-top: 20%;
+}
+
+.linkeSeite{
+    width: 150%;
+    position: static;
+}
+
+.linkeSeite img{
+    width: 9%;
+    stroke: var(--mittelgrau);
+    fill: var(--mittelgrau);
+}
+
+/*.svg-red path {
+    fill: red;
+}*/
+
+.linkeSeite h4{
+    width: 20%;
+}
+
+.philosophie{
+    position: relative;
+    left: 35%;
+    top: 2%;
+}
+.partner{
+    position: relative;
+    left: 63%;
+    top: -3%;
+}
+.community{
+    position: relative;
+    left: 10%;
+    top: -10%;
+}
+.prozess{
+    position: relative;
+    left: 75%;
+    top: -10%;
+}
+.ui{
+    position: relative;
+    left: 5%;
+    top: -15%;
+}
+.abo{
+    position: relative;
+    left: 67%;
+    top: -15%;
+}
+.service{
+    position: relative;
+    left: 29%;
+    top: -20%;
+}
+.mitte{
+    position: relative;
+    left: 40%;
+    top: -23%;
+}
+
+.rechteSeite{
+    width: 140%;
+}
+
+.rechteSeite p, .rechteSeite h3{
+    
+}
+
+
+
+/*----------------------Partner Zeitstrahl-------------------*/
 
 .bildAufRechts{
     position: absolute;
 }
-
 .bildAufRechts img{
     position: relative;
     top: -200px;
-    left: 60%;
+    left: 60%; 
     width: 60%;
 }
-
-
-
 
 
 /*----------------------Grün Blau Boxen-------------------*/
@@ -361,7 +455,7 @@ blockquote{
 }
 
 
-/*----------------------Gründer Team-------------------*/
+/*---------------------- Team-------------------*/
 
 
 .jenny{
@@ -371,6 +465,7 @@ blockquote{
     text-align: center;
     margin-left: 35%;
     margin-top: 50px;
+    border-radius: 4px;
 }
 
 .paddi{
@@ -380,12 +475,18 @@ blockquote{
     text-align: center;
     margin-left: 15%;
     margin-top: 50px;
+    border-radius: 4px;
     
 }
 
 .jenny h2, .paddi h2 {
     padding-top: 10%;
     text-align: center;
+}
+
+.jenny img, .paddi img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 /*----------------------Preis Modell------------------*/
@@ -405,6 +506,7 @@ blockquote{
     text-align: center;
     margin-left: 20%;
     margin-top: 50px;
+    border-radius: 4px;
 }
 
 .price p{
