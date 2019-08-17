@@ -79,9 +79,35 @@ width: 33%;
     --hellgrau: #EAEAEA;
     --fontcolor: #121212;
 }
-body{
+
+
+html, body {
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+}
+
+#seitenanfang{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    transform: rotate(-90deg);
+    width: 40px;
+    height: 40px;
+    background-color: var(--dunkelblau);
+    border-radius: 100px;
+ /*   display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+#seitenanfang img{
+    width: 30px;
+    position: relative;
+    left: 7px;
+    top: 4.5Px;
+
 }
 
 /*-----------------------Slider ---------*/
@@ -269,8 +295,8 @@ blockquote{
 }
 
 
-aufteilung div, .aufteilung h2, .aufteilung p{
-
+.aufteilung div{
+ margin-bottom: -200px;
     
  
 } 
@@ -284,15 +310,22 @@ aufteilung div, .aufteilung h2, .aufteilung p{
     padding-top: 20%;
 }
 
+
 .linkeSeite{
     width: 150%;
     position: static;
 }
 
 .linkeSeite img{
-    width: 9%;
+    width: 7%;
     stroke: var(--mittelgrau);
     fill: var(--mittelgrau);
+}
+.linkeSeite .tractor{
+    width: 4%;
+}
+.linkeSeite .mitte{
+    width: 20%;
 }
 
 /*.svg-red path {
@@ -310,37 +343,38 @@ aufteilung div, .aufteilung h2, .aufteilung p{
 }
 .partner{
     position: relative;
-    left: 63%;
-    top: -3%;
+    left: 55%;
+    top: -2%;
 }
 .community{
     position: relative;
-    left: 10%;
-    top: -10%;
+    left: 15%;
+    top: -15%;
 }
 .prozess{
     position: relative;
-    left: 75%;
+    left: 65%;
     top: -10%;
 }
 .ui{
     position: relative;
-    left: 5%;
-    top: -15%;
+    left: 0%;
+    top: -25%;
 }
 .abo{
     position: relative;
-    left: 67%;
-    top: -15%;
+    left: 55%;
+    top: -20%;
 }
 .service{
     position: relative;
-    left: 29%;
-    top: -20%;
+    left: 23%;
+    top: -33%;
+   
 }
 .mitte{
     position: relative;
-    left: 40%;
+    left: 30%;
     top: -23%;
 }
 
@@ -351,6 +385,360 @@ aufteilung div, .aufteilung h2, .aufteilung p{
 .rechteSeite p, .rechteSeite h3{
     
 }
+
+
+
+#tractor1{
+    position: relative;
+    left: 40%;
+    top: 10%;
+    transform: rotate(-10deg);
+    visibility: hidden;
+}
+#tractor2{
+    position: relative;
+    left: 46.5%;
+    top: -1.7%;
+    transform: rotate(25deg);
+    visibility: hidden;
+    
+}
+#tractor3{
+    position: relative;
+    left: 54%;
+    top: -5%;
+    transform: rotate(90deg);
+    visibility: hidden;
+    
+}
+#tractor4{
+    position: relative;
+    left: 358px;
+    top: -218px;
+    transform: rotate(145deg);
+    visibility: hidden;
+    
+}
+#tractor5{
+    position: relative;
+    left: 280px;
+    top: -329px;
+    transform: rotate(204deg);
+    visibility: hidden;
+    
+}
+#tractor6{
+    position: relative;
+    left: 227px;
+    top: -525px;
+    transform: rotate(270deg);
+    visibility: hidden;
+    
+}
+#tractor7{
+    position: relative;
+    left: 242px;
+    top: -688px;
+    transform: rotate(300deg);
+    visibility: hidden;
+    
+}
+/*----------------------Speechbubbles-------------------*/
+/*unten rechts*/
+.arrow_box_pfeil_unten_rechts {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+      
+}
+.arrow_box_pfeil_unten_rechts:after {
+	top: 100%;
+	left: 70%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-top-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+    margin-left: -30px;
+}
+
+/*unten link*/
+.arrow_box_pfeil_unten_links {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+ 
+}
+.arrow_box_pfeil_unten_links:after {
+	top: 100%;
+	left: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-top-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+/*oben link*/
+.arrow_box_pfeil_oben_links {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+  
+}
+.arrow_box_pfeil_oben_links:after {
+	bottom: 100%;
+	left: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-bottom-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+
+/*oben rechts*/
+.arrow_box_pfeil_oben_rechts {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+ 
+}
+.arrow_box_pfeil_oben_rechts:after {
+	bottom: 100%;
+	left: 70%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-bottom-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+/*rechts*/
+.arrow_box_pfeil_rechts {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+
+}
+.arrow_box_pfeil_rechts:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-left-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-top: -30px;
+}
+
+/*links*/
+.arrow_box_pfeil_links {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px; 
+    border-radius: 4px;
+}
+.arrow_box_pfeil_links:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-right-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-top: -30px;
+}
+
+/*----------------------prozess-------------------*/
+
+.flex{
+    display: flex; 
+}
+.prozessÜbersicht{
+    position: static;
+    margin-bottom: 800px;
+    margin-top: -2450px;
+   
+    
+}
+.übersichtBild{
+    position: absolute; 
+    z-index: -1;
+}
+
+
+.übersichtVerpackung{
+    position: relative;
+    width: 9%;
+    left: 77%;
+    top: 104%;
+
+}
+#boxVerpackung{
+    position: relative;
+    width: 15%;
+    left: 77%;
+    top: 92%;
+    visibility: hidden;
+}
+
+.übersichtApp{
+    position: relative;
+    width: 6%;
+    left: 60%;
+    top: 91%;
+}
+#boxApp{
+    position: relative;
+    width: 15%;
+    left: 58%;
+    top: 78%;
+    visibility: hidden;
+}
+
+.übersichtEinkaufswagen{
+    position: relative;
+    width: 9%;
+    left: 41.5%;
+    top: 83%;
+   
+}
+#boxEinkaufswagen{
+    position: relative;
+    width: 15%;
+    left: 33%;
+    top: 70%;
+    visibility: hidden;
+}
+
+.übersichtLieferung{
+    position: relative;
+    width: 9.5%;
+    left: 84%;
+    top: 80%;
+
+}
+#boxLieferung{
+    position: relative;
+    width: 10%;
+    left: 68%;
+    top: 73%;
+    visibility: hidden;
+}
+
+.übersichtUhr{
+    position: relative;
+    width: 8%;
+    left: 35.5%;
+    top: 67.5%;
+ 
+}
+#boxUhr{
+    position: relative;
+    width: 20%;
+    left: 20%;
+    top: 54%;
+    visibility: hidden;
+}
+
+.übersichtPartner{
+    position: relative;
+    width: 10%;
+    left: 13%;
+    top: 55%;
+}
+#boxPartner{
+    position: relative;
+    width: 15%;
+    left: 5%;
+    top: 43%;
+    visibility: hidden;
+}
+
+.übersichtBill{
+    position: relative;
+    width: 7%;
+    left: 77%;
+    top: 52.5%;
+}
+#boxBill{
+    position: relative;
+    width: 15%;
+    left: 75%;
+    top: 53.5%;
+    visibility: hidden;
+}
+
+.übersichtKiste{
+    position: relative;
+    width: 8%;
+    left: 60.5%;
+    top: 44.5%;
+}
+#boxKiste{
+    position: relative;
+    width: 15%;
+    left: 50%;
+    top: 46%;
+    visibility: hidden;
+}
+
+.übersichtMoney{
+    position: relative;
+    width: 8%;
+    left: 43.5%;
+    top: 31%;
+
+}
+#boxMoney{
+    position: relative;
+    width: 15%;
+    left: 33%;
+    top: 32%;
+    visibility: hidden;
+}
+
+
+
 
 
 
@@ -368,6 +756,8 @@ aufteilung div, .aufteilung h2, .aufteilung p{
 
 
 /*----------------------Grün Blau Boxen-------------------*/
+
+
 
 /* besser Artikel nicht ineinander*/
 .zweiBoxen article, .zweiBoxen p{
@@ -580,9 +970,8 @@ aufteilung div, .aufteilung h2, .aufteilung p{
 .wert{
     width: 80%;
     display: block;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
-    margin-bottom: 250px;
 }
    
     
