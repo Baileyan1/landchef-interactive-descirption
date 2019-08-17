@@ -206,10 +206,15 @@ p{
     font-family: "Roboto", regular;
     font-size: 12pt;
 }
+q{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular; 
+}
+
+
 ul{
     font-family: "Roboto", regular;
     font-size: 12pt;
-
 }
 
 
@@ -907,8 +912,6 @@ blockquote{
 .price article{
     width: 33%;
     text-align: center;
-    
-
 }
 .price article div{
     border-color: var(--hellblauSecondary);
@@ -927,6 +930,33 @@ blockquote{
    padding: 30px;
    margin-bottom: 50px;
    text-align: left;
+}
+
+#boxStarter{
+    position: relative;
+    left: 23%;
+    top:-10%;
+    width: 35%;
+    text-align: center;
+    visibility: hidden;
+}
+
+#boxBasic{
+    position: relative;
+    left: 23%;
+    top:-10%;
+    width: 35%;
+    text-align: center;
+    visibility: hidden;
+}
+
+#boxPro{
+    position: relative;
+    left: 23%;
+    top:-10%;
+    width: 35%;
+    text-align: center;
+    visibility: hidden;
 }
 
 

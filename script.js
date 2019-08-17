@@ -150,11 +150,35 @@ $(document).ready(function() {
         $("#boxMoney").css("visibility", "hidden");
     });
 
+    // Wertschöpfungskette
+
     $(".mittler").hover(function(){
         $("#boxMittler").css("visibility", "visible");
     }, function() {
         $("#boxMittler").css("visibility", "hidden");
     });
+
+    // Preise
+    $("#preisStarter").hover(function(){
+        $("#boxStarter").css("visibility", "visible");
+    }, function() {
+        $("#boxStarter").css("visibility", "hidden");
+    });
+
+    $("#preisBasic").hover(function(){
+        $("#boxBasic").css("visibility", "visible");
+    }, function() {
+        $("#boxBasic").css("visibility", "hidden");
+    });
+
+    $("#preisPro").hover(function(){
+        $("#boxPro").css("visibility", "visible");
+    }, function() {
+        $("#boxPro").css("visibility", "hidden");
+    });
+
+
+
 });
 
 
