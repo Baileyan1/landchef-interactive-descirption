@@ -149,6 +149,12 @@ $(document).ready(function() {
     }, function() {
         $("#boxMoney").css("visibility", "hidden");
     });
+
+    $(".mittler").hover(function(){
+        $("#boxMittler").css("visibility", "visible");
+    }, function() {
+        $("#boxMittler").css("visibility", "hidden");
+    });
 });
 
 
