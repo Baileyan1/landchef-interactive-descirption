@@ -992,6 +992,10 @@ blockquote{
    text-align: left;
 }
 
+.price q{
+    color: var(--hellblauSecondary);
+}
+
 #boxStarter{
     position: relative;
     left: 23%;

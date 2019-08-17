@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700|Roboto:100,300,400,700&display=swap');
+
+
+:root {
+    --dunkelblau: #203959;
+    --hellblauSecondary: #55DDE6;
+    --mittelgrünPrimary: #57CF95;
+    --hellgrünTertiary: #B2DB51;
+    --dunkelgrün: #B2DB51;
+    --dunkelgrau: #6A6A6A;
+    --mittelgrau: #C8C7C7;
+    --hellgrau: #EAEAEA;
+    --fontcolor: #121212;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#seitenanfang{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    transform: rotate(-90deg);
+    width: 40px;
+    height: 40px;
+    background-color: var(--dunkelblau);
+    border-radius: 100px;
+ /*   display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+
+#seitenanfang img{
+    width: 30px;
+    position: relative;
+    left: 7px;
+    top: 4.5Px;
+}
+
+
+
+/*----------------------Schriften-------------------*/
+h1 {
+    color: white;
+    font-family: "Nunito Sans", regular;
+    font-size: 50pt;
+    text-align: left;
+    margin-top: 3%;  
+    margin-left: 10%;
+}
+h2{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+h3{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular; 
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "Roboto", regular;
+    font-size: 12pt;
+}
+q{
+    color: var(--dunkelblau);
+    font-family: "Nunito Sans", regular; 
+}
+
+
+ul{
+    font-family: "Roboto", regular;
+    font-size: 12pt;
+}
+
+blockquote{
+    width: 50%;
+    text-align: center;
+    color: #5c4c40;
+    font-family: "Roboto", regular;
+    font-size: 16pt;
+    padding-left: 10px;
+    margin:200px auto;
+    margin-top: 0%;
+    line-height: 2;
+}
+
+.einleitung{
+    border-left: 3px solid #897860; 
+}
+
+#start{
+margin-left: 330px;
+margin-top: 150px;
+}
+
+
+/*----------------------header----------------------------*/
+header{
+  /* background-color: white; */
+    text-align: center;
+    margin: 0;
+    background-image: url(../pictures/HintergundLandwirt.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;;
+}
+
+
+.wrapperHeader{
+    display: flex;
+    /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+    justify-content: flex-end; 
+    margin-top: 40px;
+}
+
+.pfeilLandchef{
+    transform:rotate(180deg);
+    width: 70px;
+} 
+.nav{
+    width: 70px;
+    padding-bottom: 7%;
+    text-align: right;
+}
+
+
+/*----------------------Einzelne Box-------------------*/
+
+.einzelneBox{
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+    /*rein oder raus??????????????*/
+    box-shadow: 10px 10px 15px silver;
+  
+}
+.einzelneBox p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+   
+    font-family: "Nunito Sans", regular;
+    font-size: 25pt;
+    line-height: 1.5;
+}
+
+.einzelneBox.grün{
+    background-color: var(--mittelgrünPrimary); 
+    color: var(--dunkelblau);
+    text-align: left;
+}
+
+/*----------------------Login-------------------*/
+
+.login{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+
+/*----------------------Partnersuche-------------------*/
+.partnersuche{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.partnersuche img{
+ width: 30%;
+ margin-right: 10%;
+}
+
+.partnersuche p{
+    width: 20%;
+    margin-left: 10%;
+}
+
+
+/*----------------------Angebot-------------------*/
+.angebot{
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.angebot div{
+    width: 50%;
+}
+.angebot img{
+ width: 70%;
+ margin-right: 10%;
+
+}
+
+.angebot p, .angebot h2{
+    width: 50%;
+    padding-left: 30%;
+}
+
+
+/*----------------------Details-------------------*/
+
+.details{
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+
+.details div{
+    width: 25%;
+}
+
+.details img{
+    width: 90%;
+    margin-bottom: 200px;
+
+}
+
+.details p, .details h2{
+    width: 80%;
+    padding-left: 10%;
+}
