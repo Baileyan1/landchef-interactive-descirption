@@ -158,6 +158,14 @@ $(document).ready(function() {
         $("#boxMittler").css("visibility", "hidden");
     });
 
+
+    // Smiley
+    $("#zeitstrahl").hover(function(){
+        $("#smiley").css("visibility", "visible");
+    }, function() {
+        $("#smiley").css("visibility", "hidden");
+    });
+
     // Preise
     $("#preisStarter").hover(function(){
         $("#boxStarter").css("visibility", "visible");

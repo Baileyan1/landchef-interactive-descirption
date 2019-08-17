@@ -325,6 +325,7 @@ blockquote{
     width: 7%;
     stroke: var(--mittelgrau);
     fill: var(--mittelgrau);
+    cursor: pointer;
 }
 .linkeSeite .tractor{
     width: 4%;
@@ -339,12 +340,14 @@ blockquote{
 
 .linkeSeite h4{
     width: 20%;
+    cursor: pointer;
 }
 
 .philosophie{
     position: relative;
     left: 35%;
     top: 2%;
+    
 }
 .partner{
     position: relative;
@@ -780,6 +783,14 @@ blockquote{
     top: -200px;
     left: 65%; 
     width: 50%;
+}
+
+#smiley{
+    font-size: 30pt;
+    position: relative;
+    left: 23.7%;
+    top: 63%;
+    visibility: hidden;
 }
 
 
