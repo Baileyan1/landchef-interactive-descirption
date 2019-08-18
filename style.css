@@ -292,18 +292,15 @@ blockquote{
  border-radius: 4px;
 }
 
-/*----------------------landchef Konzept Ausrichtung-------------------*/
+/*----------------------landchef Konzept Ausrichtung------------------*/
 
 .aufteilung{
     display: flex;
-    margin-bottom: 50px;
+   height: 100vh; /* 100vh ist die volle höhe des containers, und 100wv die volle breite*/
 }
-
 
 .aufteilung div{
  margin-bottom: -200px;
-    
- 
 } 
 
 .aufteilung p, .aufteilung h3{
@@ -317,8 +314,9 @@ blockquote{
 
 
 .linkeSeite{
+    position: relative;
     width: 150%;
-    position: static;
+    Flex: 0 0 50%;
 }
 
 .linkeSeite img{
@@ -334,6 +332,15 @@ blockquote{
     width: 20%;
 }
 
+.rechteSeite{
+    Flex: 0 0 50%;
+}
+
+.rechteSeite p{
+    width: 60%;
+    
+}
+
 /*.svg-red path {
     fill: red;
 }*/
@@ -342,69 +349,86 @@ blockquote{
     width: 20%;
     cursor: pointer;
 }
+/*Texte*/
+
+#textPhilosophie{
+    display: block;
+}
+#textPartner{
+    display: none;
+}
+#textCommunity{
+    display: none;
+}
+#textProzess{
+    display: none;
+}
+#textNutzererlebnis{
+    display: none;
+}
+#textAbo{
+    display: none;
+}
+#textService{
+    display: none;
+}
+
+
+/*Icons*/
 
 .philosophie{
-    position: relative;
-    left: 35%;
-    top: 2%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
     
 }
 .partner{
-    position: relative;
-    left: 55%;
-    top: -2%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
 .community{
-    position: relative;
-    left: 15%;
-    top: -15%;
+    position: absolute;
+    left: 0%;
+    top: -0%;
 }
 .prozess{
-    position: relative;
-    left: 65%;
-    top: -10%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
 .ui{
-    position: relative;
+    position: absolute;
     left: 0%;
-    top: -25%;
+    top: 0%;
 }
 .abo{
-    position: relative;
-    left: 55%;
-    top: -20%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
 .service{
-    position: relative;
-    left: 23%;
-    top: -33%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
    
 }
 .mitte{
-    position: relative;
-    left: 30%;
-    top: -23%;
-}
-
-.rechteSeite{
-    width: 140%;
-}
-
-.rechteSeite p{
-    width: 60%;
-    
+    position: absolute;
+    left: 0%;
+    top: 0%;
 }
 
 
 #tractor1{
-    position: relative;
+    position: absolute;
     left: 40%;
     top: 10%;
     transform: rotate(-10deg);
     visibility: hidden;
 }
 #tractor2{
-    position: relative;
+    position: absolute;
     left: 46.5%;
     top: -1.7%;
     transform: rotate(25deg);
@@ -412,7 +436,7 @@ blockquote{
     
 }
 #tractor3{
-    position: relative;
+    position: absolute;
     left: 54%;
     top: -5%;
     transform: rotate(90deg);
@@ -420,7 +444,7 @@ blockquote{
     
 }
 #tractor4{
-    position: relative;
+    position: absolute;
     left: 358px;
     top: -218px;
     transform: rotate(145deg);
@@ -428,7 +452,7 @@ blockquote{
     
 }
 #tractor5{
-    position: relative;
+    position: absolute;
     left: 280px;
     top: -329px;
     transform: rotate(204deg);
@@ -436,7 +460,7 @@ blockquote{
     
 }
 #tractor6{
-    position: relative;
+    position: absolute;
     left: 227px;
     top: -525px;
     transform: rotate(270deg);
@@ -444,7 +468,7 @@ blockquote{
     
 }
 #tractor7{
-    position: relative;
+    position: absolute;
     left: 242px;
     top: -688px;
     transform: rotate(300deg);
@@ -596,166 +620,199 @@ blockquote{
 	margin-top: -30px;
 }
 
+
+/*für Preise oben mitte*/
+.arrow_box_pfeil_oben_mitte {
+    position: relative;
+    background-color: rgba(178, 219, 81, 0.800);
+    color: var(--dunkelblau);
+    padding: 30px;
+    border-radius: 4px;
+ 
+}
+.arrow_box_pfeil_oben_mitte:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(178, 219, 81, 0);
+	border-bottom-color: rgba(178, 219, 81, 0.800);
+	border-width: 30px;
+	margin-left: -30px;
+}
+
 /*----------------------prozess-------------------*/
 
 .flex{
     display: flex; 
 }
 .prozessÜbersicht{
-    position: static;
-    margin-bottom: 800px;
-    margin-top: -2450px;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 100vh;
+    Flex: 0 0 100%;
+    margin-bottom: 200px;
    
     
 }
 .übersichtBild{
     position: absolute; 
     z-index: -1;
+    
+   
 }
 
 
 .übersichtVerpackung{
-    position: relative;
+    position: absolute;
     width: 9%;
-    left: 77%;
-    top: 104%;
+    left: 75%;
+    top: 12%;
 
 }
 #boxVerpackung{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 77%;
-    top: 92%;
+    left: 63%;
+    top: 32%;
     visibility: hidden;
 }
 
 .übersichtApp{
-    position: relative;
+    position: absolute;
     width: 6%;
-    left: 60%;
-    top: 91%;
+    left: 57%;
+    top: 0%;
 }
 #boxApp{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 58%;
-    top: 78%;
+    left: 55%;
+    top: 23%;
     visibility: hidden;
 }
 
 .übersichtEinkaufswagen{
-    position: relative;
+    position: absolute;
     width: 9%;
-    left: 41.5%;
-    top: 83%;
+    left: 39%;
+    top: 19%;
    
 }
 #boxEinkaufswagen{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 33%;
-    top: 70%;
+    left: 40%;
+    top: 42%;
     visibility: hidden;
 }
 
 .übersichtLieferung{
-    position: relative;
+    position: absolute;
     width: 9.5%;
-    left: 84%;
-    top: 80%;
+    left: 82%;
+    top: 60%;
 
 }
 #boxLieferung{
-    position: relative;
+    position: absolute;
     width: 10%;
-    left: 68%;
-    top: 73%;
+    left: 66%;
+    top: 51%;
     visibility: hidden;
 }
 
 .übersichtUhr{
-    position: relative;
+    position: absolute;
     width: 8%;
-    left: 35.5%;
-    top: 67.5%;
+    left: 33%;
+    top: 58.5%;
  
 }
 #boxUhr{
-    position: relative;
+    position: absolute;
     width: 20%;
-    left: 20%;
-    top: 54%;
+    left: 43%;
+    top: 50%;
     visibility: hidden;
 }
 
 .übersichtPartner{
-    position: relative;
+    position: absolute;
     width: 10%;
-    left: 13%;
-    top: 55%;
+    left: 10%;
+    top: 59%;
 }
 #boxPartner{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 5%;
-    top: 43%;
+    left: 9%;
+    top: 25%;
     visibility: hidden;
 }
 
 .übersichtBill{
-    position: relative;
+    position: absolute;
     width: 7%;
-    left: 77%;
-    top: 52.5%;
+    left: 75%;
+    top: 107%;
 }
 #boxBill{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 75%;
-    top: 53.5%;
+    left: 65%;
+    top: 70%;
     visibility: hidden;
 }
 
 .übersichtKiste{
-    position: relative;
+    position: absolute;
     width: 8%;
-    left: 60.5%;
-    top: 44.5%;
+    left: 57%;
+    top: 123%;
 }
 #boxKiste{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 50%;
-    top: 46%;
+    left: 55%;
+    top: 93%;
     visibility: hidden;
 }
 
 .übersichtMoney{
-    position: relative;
+    position: absolute;
     width: 8%;
     left: 43.5%;
-    top: 31%;
+    top: 100%;
 
 }
 #boxMoney{
-    position: relative;
+    position: absolute;
     width: 15%;
-    left: 33%;
-    top: 32%;
+    left: 41%;
+    top: 73%;
     visibility: hidden;
 }
 
 /*----------------------Wertschöpfungskette-------------------*/
 
 .rahmenWertschöpfung{
-    margin-bottom: -300px;
+    margin-bottom: -200px;
+    flex: 0 0 100%;
+    position: relative;
+    height: 170vh;
 }
 .wertschöpfungskette{
-    position: static;  
+      
 }
 
 .mittler{
-    position: relative;
+    position: absolute;
     width: 5%;
     left: 41%;
     top: -50%; 
@@ -763,7 +820,7 @@ blockquote{
 }
 
 #boxMittler{
-    position: relative;
+    position: absolute;
     width: 15%;
     left: 39%;
     top: -51%; 
@@ -773,23 +830,43 @@ blockquote{
 
 /*----------------------Partner Zeitstrahl-------------------*/
 
+.zeitstrahl{
+    margin-bottom: 300px;
+
+}
+
+.textLinks{
+    flex: 0 0 50%;
+}
+
+.textLinks p{
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: -20%;
+
+
+}
+
+
+
 .bildAufRechts{
-    position: absolute;
+    position: relative;
+    flex: 0 0 50%;
 }
 
 .bildAufRechts img{
-    position: relative;
-    top: -200px;
-    left: 65%; 
-    width: 50%;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: -80%;
 }
 
 #smiley{
     font-size: 30pt;
-    width: 70%;
-    position: relative;
-    left: 23.7%;
-    top: 63%;
+    width: 10%;
+    position: absolute;
+    left: 56%;
+    top: 102%;
     visibility: hidden;
 }
 
@@ -797,24 +874,19 @@ blockquote{
 /*----------------------Grün Blau Boxen-------------------*/
 
 
-
-/* besser Artikel nicht ineinander*/
-.zweiBoxen article, .zweiBoxen p{
-    float: left;
-    width: 50%;
-    margin-bottom: 200px;  
-}
 .shadow{
-    box-shadow: 10px 10px 15px silver;
+    box-shadow: 10px 10px 15px #EAEAEA;
 }
 
 .links{ 
     background-color: #57CF95; 
     height: 400px;
+    Flex: 0 0 50%;
 }
 .rechts{ 
     background-color: var(--dunkelblau);   
     height: 400px;
+    Flex: 0 0 50%;
 }
 .links h2 {
     padding-left: 20%;
@@ -855,29 +927,38 @@ blockquote{
 .vision{ 
     background-color: var(--mittelgrünPrimary); 
     height: 400px;
+    Flex: 0 0 50%;
 }
 .mission{ 
     background-color: var(--dunkelblau);   
     height: 400px;
+    Flex: 0 0 50%;
 }
 .vision h2 {
     padding-top: 10%;
     text-align: center;
+    padding-left: 0%;
 }
 .mission h2{
     padding-top: 10%;
     text-align: center;
     color: var(--mittelgrünPrimary);
+    padding-left: 0%;
 }
 
+
 .vision p{
-    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     padding-bottom: 7%;
     color: var(--dunkelblau);
     text-align: center;
 }
 .mission p{
-    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     padding-bottom: 0%;
     color: var(--mittelgrünPrimary);
     text-align: center;
@@ -890,21 +971,23 @@ blockquote{
     margin-bottom: 250px;
     justify-content: space-around; 
     margin-top: 40px;
+    
 }
 
 
 .jenny{
-    box-shadow: 10px 10px 15px silver;
+    box-shadow: 10px 10px 15px #EAEAEA;
     width: 300px;
     height: 400px;
     text-align: center;
     margin-left: 15%;
     margin-top: 50px;
     border-radius: 4px;
+    position: relative;
 }
 
 #boxJenny{
-    position: relative;
+    position: absolute;
     background-color: rgba(87, 207, 149, 0.800);
     color: var(--dunkelblau);
     padding: 30px;
@@ -913,23 +996,24 @@ blockquote{
     border-top-right-radius: 4px;
     width: 80%;
     height: 49%;
-    top: -100.7%;
+    top: -4%;
     visibility: hidden;
     text-align: left;
 }
 
 .paddi{
-    box-shadow: 10px 10px 15px silver;
+    box-shadow: 10px 10px 15px #EAEAEA;
     width: 300px;
     height: 400px;
     text-align: center;
     margin-right: 15%;
     margin-top: 50px;
     border-radius: 4px;  
+    position: relative;
 }
 
 #boxPaddi{
-    position: relative;
+    position: absolute;
     background-color: rgba(32, 57, 89, 0.800);
     color: var(--mittelgrünPrimary);
     padding: 30px;
@@ -938,7 +1022,7 @@ blockquote{
     border-top-right-radius: 4px;
     width: 80%;
     height: 49%;
-    top: -100.7%;
+    top: -4%;
     visibility: hidden;
     text-align: left;
 
@@ -969,9 +1053,11 @@ blockquote{
 
 /*----------------------Preis Modell------------------*/
 
+
 .price article{
     width: 33%;
     text-align: center;
+    position: relative;
 }
 .price article div{
     border-color: var(--hellblauSecondary);
@@ -997,27 +1083,27 @@ blockquote{
 }
 
 #boxStarter{
-    position: relative;
-    left: 23%;
-    top:-10%;
+    position: absolute;
+    left: 28.5%;
+    top: 80%;
     width: 35%;
     text-align: center;
     visibility: hidden;
 }
 
 #boxBasic{
-    position: relative;
-    left: 23%;
-    top:-10%;
+    position: absolute;
+    left: 28.5%;
+    top: 80%;
     width: 35%;
     text-align: center;
     visibility: hidden;
 }
 
 #boxPro{
-    position: relative;
-    left: 23%;
-    top:-10%;
+    position: absolute;
+    left: 28.5%;
+    top: 80%;
     width: 35%;
     text-align: center;
     visibility: hidden;
@@ -1033,7 +1119,7 @@ blockquote{
     margin-bottom: 200px;
 
     /*rein oder raus??????????????*/
-    box-shadow: 10px 10px 15px silver;
+    box-shadow: 10px 10px 15px #EAEAEA;
   
 }
 .einzelneBox p{
