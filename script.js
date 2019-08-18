@@ -77,8 +77,8 @@ $(document).ready(function() {
     $(".abo").click(function(){
         $("#tractor1, #tractor2, #tractor3, #tractor5, #tractor6, #tractor7").css("visibility", "hidden");
         $("#tractor4").css("visibility", "visible");
-        $(".service, .prozess, .community, .partner, .philosophie, .ui").css("color", "#203959");
         $(".abo").css("color", "#57CF95");
+        $(".service, .prozess, .community, .partner, .philosophie, .ui").css("color", "#203959");
         $("#textAbo").css("display","block");
         $("#textPhilosophie, #textPartner, #textCommunity, #textProzess, #textNutzererlebnis, #textService").css("display","none");
     });

@@ -202,6 +202,12 @@ h3{
     margin: 0;
     padding: 0;
 }
+h4{
+
+    font-family: "Nunito Sans", regular; 
+}
+
+
 p{
     font-family: "Roboto", regular;
     font-size: 12pt;
@@ -292,15 +298,16 @@ blockquote{
  border-radius: 4px;
 }
 
-/*----------------------landchef Konzept Ausrichtung------------------*/
+/*--------------landchef Konzept Ausrichtung-----------*/
 
 .aufteilung{
     display: flex;
    height: 100vh; /* 100vh ist die volle höhe des containers, und 100wv die volle breite*/
+   margin-bottom: 200px;
 }
 
 .aufteilung div{
- margin-bottom: -200px;
+
 } 
 
 .aufteilung p, .aufteilung h3{
@@ -319,8 +326,12 @@ blockquote{
     Flex: 0 0 50%;
 }
 
+.linkeSeite div{
+    width: 45%;
+}
+
 .linkeSeite img{
-    width: 7%;
+    width: 15%;
     stroke: var(--mittelgrau);
     fill: var(--mittelgrau);
     cursor: pointer;
@@ -376,79 +387,80 @@ blockquote{
 
 /*Icons*/
 
+
 .philosophie{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 40%;
+    top: 0%;   
     
 }
 .partner{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 65%;
+    top: 10%;
 }
 .community{
     position: absolute;
-    left: 0%;
-    top: -0%;
+    left: 15%;
+    top: 10%;
 }
 .prozess{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 75%;
+    top: 40%;
 }
 .ui{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 5%;
+    top: 40%;
 }
 .abo{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 60%;
+    top: 65%;
 }
 .service{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 20%;
+    top: 65%;
    
 }
 .mitte{
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 35%;
+    top: 30%;
 }
 
 
 #tractor1{
     position: absolute;
-    left: 40%;
-    top: 10%;
+    left: 42%;
+    top: 27%;
     transform: rotate(-10deg);
-    visibility: hidden;
+    
 }
 #tractor2{
     position: absolute;
-    left: 46.5%;
-    top: -1.7%;
-    transform: rotate(25deg);
-    visibility: hidden;
+    left: 50%;
+    top: 28.5%;
+    transform: rotate(30deg);
+
     
 }
 #tractor3{
     position: absolute;
-    left: 54%;
-    top: -5%;
+    left: 54.3%;
+    top: 38%;
     transform: rotate(90deg);
-    visibility: hidden;
+   
     
 }
 #tractor4{
     position: absolute;
     left: 358px;
-    top: -218px;
+    top: 80px;
     transform: rotate(145deg);
-    visibility: hidden;
+  
     
 }
 #tractor5{
