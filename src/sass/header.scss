@@ -1,0 +1,33 @@
+/*----------------------header----------------------------*/
+header {
+  /* background-color: white; */
+  text-align: center;
+  margin: 0;
+  background-image: url(pictures/unscharfeKuh.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+#lImg {
+  margin-top: 30px;
+  width: 20%;
+}
+
+.wrapperHeader {
+  display: flex;
+  /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.pfeilLandwirt {
+  transform: rotate(180deg);
+  width: 70px;
+}
+.nav {
+  width: 70px;
+}
+.question p {
+  font-size: 20pt;
+  font-family: "Nunito Sans", regular;
+  color: var(--dunkelgrau);
+}
