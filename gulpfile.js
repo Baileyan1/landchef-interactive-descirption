@@ -17,12 +17,8 @@ gulp.task("scripts", function() {
 
 gulp.task("styles", function() {
   return gulp
-    .src("src/sass/style.scss", { allowEmpty: true })
-    .pipe(
-      sass({
-        style: "compressed"
-      })
-    )
+    .src("src/sass/styles.scss", { allowEmpty: true })
+    .pipe(sass.sync({ outputStyle: "compressed" }).on("error", sass.logError))
     .pipe(gulp.dest("./build/css/styles.css"))
     .pipe(reload({ stream: true }));
 });
@@ -34,7 +30,7 @@ gulp.task("html", () => {
 });
 
 gulp.task("assets", () => {
-  return gulp.src("src/assets/**/*").pipe(gulp.dest("build/assets"));
+  return gulp.src("src/**/*").pipe(gulp.dest("build/"));
 });
 
 //Watches changes
