@@ -203,7 +203,7 @@ h3{
     padding: 0;
 }
 h4{
-
+   /*darf keine farbe bekommen, sonst script anpassen*/
     font-family: "Nunito Sans", regular; 
 }
 
@@ -327,11 +327,11 @@ blockquote{
 }
 
 .linkeSeite div{
-    width: 45%;
+    width: 20%;
 }
 
 .linkeSeite img{
-    width: 15%;
+    width: 35%;
     stroke: var(--mittelgrau);
     fill: var(--mittelgrau);
     cursor: pointer;
@@ -674,6 +674,7 @@ blockquote{
 }
 .übersichtBild{
     position: absolute; 
+
     z-index: -1;
     
    

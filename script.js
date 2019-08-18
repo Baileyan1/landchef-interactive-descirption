@@ -34,7 +34,7 @@ jQuery('img[src$=".svg"]').each(function() {
 // das konzept - interaktiv
 
 $(document).ready(function() {
-    $(".philosophie").click(function(){
+    $(".philosophie h4, .philosophie img").click(function(){
         $("#tractor1").css("visibility", "visible");
         $("#tractor2, #tractor3, #tractor4,#tractor5, #tractor6, #tractor7").css("visibility", "hidden");
         $(".philosophie").css("color", "#57CF95");
@@ -42,7 +42,7 @@ $(document).ready(function() {
         $("#textPhilosophie").css("display","block");
         $("#textPartner, #textCommunity, #textProzess, #textNutzererlebnis, #textAbo, #textService").css("display","none");
     });
-    $(".partner").click(function(){
+    $(".partner h4, .partner img").click(function(){
         $("#tractor1, #tractor3, #tractor4,#tractor5, #tractor6, #tractor7").css("visibility", "hidden");
         $("#tractor2").css("visibility", "visible");
         $(".abo, .service, .prozess, .community, .philosophie, .ui").css("color", "#203959");
@@ -50,7 +50,7 @@ $(document).ready(function() {
         $("#textPartner").css("display","block");
         $("#textPhilosophie, #textCommunity, #textProzess, #textNutzererlebnis, #textAbo, #textService").css("display","none");
     });
-    $(".community").click(function(){
+    $(".community h4, .community img").click(function(){
         $("#tractor1, #tractor2, #tractor3, #tractor4,#tractor5, #tractor6").css("visibility", "hidden");
         $("#tractor7").css("visibility", "visible");
         $(".abo, .service, .prozess, .partner, .philosophie, .ui").css("color", "#203959");
@@ -58,7 +58,7 @@ $(document).ready(function() {
         $("#textCommunity").css("display","block");
         $("#textPhilosophie, #textPartner, #textProzess, #textNutzererlebnis, #textAbo, #textService").css("display","none");
     });
-    $(".prozess").click(function(){
+    $(".prozess h4, .prozess img").click(function(){
         $("#tractor1, #tractor2, #tractor4,#tractor5, #tractor6, #tractor7").css("visibility", "hidden");
         $("#tractor3").css("visibility", "visible");
         $(".abo, .service, .community, .partner, .philosophie, .ui").css("color", "#203959");
@@ -66,7 +66,7 @@ $(document).ready(function() {
         $("#textProzess").css("display","block");
         $("#textPhilosophie, #textPartner, #textCommunity, #textNutzererlebnis, #textAbo, #textService").css("display","none");
     });
-    $(".ui").click(function(){
+    $(".ui h4, .ui img").click(function(){
         $("#tractor1, #tractor2, #tractor3, #tractor4,#tractor5, #tractor7").css("visibility", "hidden");
         $("#tractor6").css("visibility", "visible");
         $(".ui").css("color", "#57CF95");
@@ -74,7 +74,7 @@ $(document).ready(function() {
         $("#textNutzererlebnis").css("display","block");
         $("#textPhilosophie, #textPartner, #textCommunity, #textProzess, #textAbo, #textService").css("display","none");
     });
-    $(".abo").click(function(){
+    $(".abo h4, .abo img").click(function(){
         $("#tractor1, #tractor2, #tractor3, #tractor5, #tractor6, #tractor7").css("visibility", "hidden");
         $("#tractor4").css("visibility", "visible");
         $(".abo").css("color", "#57CF95");
@@ -82,7 +82,7 @@ $(document).ready(function() {
         $("#textAbo").css("display","block");
         $("#textPhilosophie, #textPartner, #textCommunity, #textProzess, #textNutzererlebnis, #textService").css("display","none");
     });
-    $(".service").click(function(){
+    $(".service h4, .service img").click(function(){
         $("#tractor1, #tractor2, #tractor3, #tractor4, #tractor6, #tractor7").css("visibility", "hidden");
         $("#tractor5").css("visibility", "visible");
         $(".abo, .prozess, .community, .partner, .philosophie, .ui").css("color", "#203959");
