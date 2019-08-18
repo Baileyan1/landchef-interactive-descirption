@@ -814,16 +814,16 @@ blockquote{
 .mittler{
     position: absolute;
     width: 5%;
-    left: 41%;
-    top: -50%; 
+    left: 40%;
+    top: 49%; 
     transform: rotate(7deg);
 }
 
 #boxMittler{
     position: absolute;
     width: 15%;
-    left: 39%;
-    top: -51%; 
+    left: 38%;
+    top: 30%; 
     visibility: hidden;
 }
 
