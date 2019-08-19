@@ -3,14 +3,17 @@ var gulp = require("gulp"),
   uglify = require("gulp-uglify"),
   concat = require("gulp-concat"),
   browserSync = require("browser-sync"),
+  sourcemaps = require("gulp-sourcemaps"),
   reload = browserSync.reload;
 
 gulp.task("scripts", function() {
   return (
     gulp
       .src("src/js/*.js")
+      .pipe(sourcemaps.init())
       .pipe(concat("app.min.js"))
       //.pipe(uglify())
+      .pipe(sourcemaps.write())
       .pipe(gulp.dest("./build/js/"))
   );
 });

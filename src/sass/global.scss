@@ -1,73 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,700|Roboto:100,300,400,700&display=swap");
 
-/* 
-cooler Kreis Effekt
-/*
-.circle {
-  position:relative;
-  cursor:pointer;
-  margin:0 auto;
-  width:220px;
-  height:220px;
-  overflow:hidden;
-  transform:translateZ(0)
-}
-
-.circle:before {
-  border-radius:50%;
-  content:"";
-  position:absolute;
-  top:0; left:0;
-  width:inherit;
-  height:inherit;
-  box-shadow:
-      inset 150px 0 0 hsla(230,80%,70%,0.6), 
-      inset 0 150px 0 hsla(230,80%,70%,0.6), 
-      inset -150px 0 0 hsla(230,80%,70%,0.6), 
-      inset 0 -150px 0 hsla(230,80%,70%,0.6);
-  transition:box-shadow 0.75s
-}
-
-.circle:hover:before{ 
-  box-shadow:
-      inset 36px 0 0 hsla(90,50%,40%,0.4),
-      inset 0 36px 0 hsla(240,50%,40%,0.2), 
-      inset -36px 0 0 hsla(300,50%,40%,0.2), 
-      inset 0 -36px 0 hsla(60,50%,40%,0.2)
-}
-
-*/
-
-/*
-.zweiBoxen.clearfix:before,
-.clearfix:after {
-content: ” “;
-display: table;
-}
-.clearfix:after {
-clear: both;
-}
-.clearfix {
-*zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-content: ” “;
-display: table;
-}
-.clearfix:after {
-clear: both;
-}
-.clearfix {
-*zoom: 1;
-}
-
-/*.left {
-float: left;
-width: 33%;
-}*/
-
 :root {
   --dunkelblau: #203959;
   --hellblauSecondary: #55dde6;
@@ -86,6 +18,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 #seitenanfang {

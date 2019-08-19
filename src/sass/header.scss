@@ -2,30 +2,64 @@
 /*----------------------header----------------------------*/
 
 header {
-  /* background-color: white; */
-  text-align: center;
-  margin: 0;
-  background-image: url(/assets/img/unscharfeKuh.jpeg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  .header {
+    .wrapperHeader {
+      background-color: $BackgroundColor;
+      display: flex;
+      /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+      justify-content: space-between;
+      margin-top: 40px;
+      padding: $SizeRegular;
+    }
+
+    &-front {
+      /* background-color: white; */
+      text-align: center;
+      margin: 0;
+      background-image: url(/assets/img/unscharfeKuh.jpeg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+      .wrapperHeader {
+        .pfeilLandwirt {
+          transform: rotate(180deg);
+          width: 70px;
+        }
+      }
+    }
+
+    &-farmer {
+      /* background-color: white; */
+      text-align: center;
+      margin: 0;
+      background-image: url(/assets/img/HintergundLandwirt.jpeg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+      .wrapperHeader {
+        display: flex;
+        /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+        justify-content: flex-end;
+        margin-top: 40px;
+
+        .pfeilLandchef {
+          transform: rotate(180deg);
+          width: 70px;
+        }
+      }
+
+      &-restaurant {
+      }
+    }
+  }
 
   .logo {
     margin-top: 30px;
     width: 20%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .wrapperHeader {
-    background-color: $BackgroundColor;
-    display: flex;
-    /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
-    justify-content: space-between;
-    margin-top: 40px;
-    padding: $SizeRegular;
-  }
-  .pfeilLandwirt {
-    transform: rotate(180deg);
-    width: 70px;
-  }
   .nav {
     width: 70px;
   }
