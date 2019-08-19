@@ -3,16 +3,15 @@
 $containerWidth: 960px;
 $containerMargin-bottom: 100px;
 
-
 .container {
   width: 100%;
-  padding: $SizeRegular;
+  padding: $SizeExtraLarge $SizeRegular;
   margin-bottom: $containerMargin-bottom;
-
 
   .container-inner {
     margin: 0 auto;
-    width: $containerWidth;
+    max-width: $containerWidth;
+    width: 100%;
   }
 
   .columns {
@@ -21,22 +20,21 @@ $containerMargin-bottom: 100px;
 
   .column {
     flex: 0 0 50%;
-    
   }
 }
 
-.container-small{
+.container-small {
   width: 69%;
   margin: auto;
   margin-bottom: $containerMargin-bottom;
-  align-items:center;
+  align-items: center;
 
-  img{
-    width:100%;
+  img {
+    width: 100%;
   }
 }
 
-$blockHeight:450px;
+$blockHeight: 450px;
 
 .block {
   // generates '.block-dark'
