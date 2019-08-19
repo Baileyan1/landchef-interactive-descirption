@@ -29,8 +29,12 @@ $(document).ready(() => {
     currentSlide,
     nextSlide
   ) {
-    $(`#page-container section[data-page-index=${currentSlide}]`).slideUp();
-    $(`#page-container section[data-page-index=${nextSlide}]`).slideDown();
+    $(`#page-container section[data-page-index=${currentSlide}]`).fadeOut(
+      300,
+      () => {
+        $(`#page-container section[data-page-index=${nextSlide}]`).fadeIn();
+      }
+    );
   });
 
   // click handler
