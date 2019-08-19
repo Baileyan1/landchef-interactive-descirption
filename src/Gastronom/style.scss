@@ -1,0 +1,13 @@
+body {
+    font-family: "Roboto";
+  }
+  
+  /** imports */
+  @import "/src/sass/global.scss";
+  @import "/src/sass/fonts.scss";
+  @import "/src/sass/tippy.scss";
+  
+  @import "/src/sass/layout.scss";
+  
+  @import "./gStyle.css";
+  
