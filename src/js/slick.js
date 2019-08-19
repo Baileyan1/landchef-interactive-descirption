@@ -10,6 +10,12 @@ $(document).ready(() => {
       if (index != $("#page-container").attr("data-slide-first")) {
         $(item).hide();
       }
+
+      // Everything with [data-tippy-content] becomes a tooltip
+      tippy("[data-tippy-content]", {
+        arrow: true,
+        theme: "landchef"
+      });
     });
   });
 
