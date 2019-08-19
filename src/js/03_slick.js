@@ -11,6 +11,7 @@ $(document).ready(() => {
         $(item).hide();
       }
 
+      svgReload();
       tippyEverything();
     });
   });
