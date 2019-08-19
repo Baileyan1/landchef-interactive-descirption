@@ -1,10 +1,14 @@
 @import "./variables.scss";
 
 $containerWidth: 960px;
+$containerMargin-bottom: 100px;
+
 
 .container {
   width: 100%;
   padding: $SizeRegular;
+  margin-bottom: $containerMargin-bottom;
+
 
   .container-inner {
     margin: 0 auto;
@@ -17,17 +21,35 @@ $containerWidth: 960px;
 
   .column {
     flex: 0 0 50%;
+    
   }
 }
+
+.container-small{
+  width: 69%;
+  margin: auto;
+  margin-bottom: $containerMargin-bottom;
+  align-items:center;
+
+  img{
+    width:100%;
+  }
+}
+
+$blockHeight:450px;
 
 .block {
   // generates '.block-dark'
   &-dark {
     background-color: $Gray4;
     color: $FontColorInverted;
+    height: $blockHeight;
+    box-shadow: 10px 10px 15px #eaeaea;
   }
   &-primary {
     background-color: $PrimaryColor;
     color: $Gray4;
+    height: $blockHeight;
+    box-shadow: 10px 10px 15px #eaeaea;
   }
 }

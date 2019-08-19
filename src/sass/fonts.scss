@@ -1,15 +1,18 @@
 @import "./variables.scss";
 /*----------------------Schriften-------------------*/
+/*Seitentitel*/
 h1 {
   color: $Gray4;
   font-family: "Nunito Sans";
   text-align: center;
   margin-top: 60px;
+
+/*Abschnittsüberchrift*/
 }
 h2 {
   color: $Gray4;
   font-family: "Nunito Sans";
-  padding-left: 20px;
+  /*padding-left: 20px;*/ /*wird jetzt über container-small erstmal geregelt*/
   margin-bottom: 40px;
 }
 h3 {
@@ -21,6 +24,13 @@ h3 {
 h4 {
   /*darf keine farbe bekommen, sonst script anpassen*/
   font-family: "Nunito Sans";
+}
+
+/*Schrift für block*/
+h5{
+  font-family: "Nunito Sans";
+  font-size: 1em;
+  
 }
 
 p {
