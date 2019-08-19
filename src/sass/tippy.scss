@@ -1,0 +1,13 @@
+@import "./variables.scss";
+.tippy-tooltip.landchef-theme {
+  background-color: tomato;
+  color: yellow;
+}
+
+.tippy-tooltip.landchef-theme[data-animatefill] {
+  background-color: transparent;
+}
+
+.tippy-tooltip.landchef-theme .tippy-backdrop {
+  background-color: tomato;
+}
