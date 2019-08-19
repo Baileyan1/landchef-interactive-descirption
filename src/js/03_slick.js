@@ -10,9 +10,6 @@ $(document).ready(() => {
       if (index != $("#page-container").attr("data-slide-first")) {
         $(item).hide();
       }
-
-      svgReload();
-      tippyEverything();
     });
   });
 
