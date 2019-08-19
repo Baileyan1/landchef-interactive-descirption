@@ -16,6 +16,10 @@ function interactiveConcept() {
       $(this).addClass("active");
       const newActive = $(this).attr("data-id");
       $(`#concept-reel .text .item[data-id=${newActive}]`).addClass("active");
+
+      // move tractor
+      const index = $("#concept-reel .illustration .item").index(this);
+      $("#concept-reel .illustration .tractor").attr("data-rotation", index);
     });
   });
 }

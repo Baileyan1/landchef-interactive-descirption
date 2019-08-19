@@ -36,39 +36,81 @@ blockquote {
   border-radius: 4px;
 }
 
-/*--------------landchef Konzept Ausrichtung-----------*/
+/*--------------landchef concept reel-----------*/
 #concept-reel {
   .illustration {
-    @include on-circle(7, 400px, 128px, ".item");
+    position: relative;
+    padding-bottom: 100%;
 
-    .item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .img {
-        width: 25%;
-        stroke: var($Gray2);
-        fill: var($Gray2);
-        cursor: pointer;
-      }
-      h4 {
-        cursor: pointer;
-      }
-
-      &.active {
-        color: $PrimaryColor;
-      }
+    .illustration-inner {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
     }
+
     .tractor {
-      width: 4%;
-    }
-    .mitte {
-      width: 40%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 7%;
+      margin: -3.5%;
+      transform-origin: 50%;
+
+      transition: transform 2s ease-in-out;
+      img {
+        width: 100%;
+      }
+
+      @for $i from 0 through 7 {
+        &[data-rotation="#{$i}"] {
+          transform: rotate(360 / 7 * $i * 1deg) translateX(250%) rotate(90deg);
+        }
+      }
     }
 
-    /*.svg-red path {
-        fill: red;
-    }*/
+    .world {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 30%;
+      margin: -15%;
+    }
+
+    .circle {
+      top: 7%;
+      @include on-circle(7, 100%, 180px, ".item");
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .img {
+          width: 25%;
+          stroke: var($Gray2);
+          fill: var($Gray2);
+          cursor: pointer;
+        }
+        h4 {
+          cursor: pointer;
+          text-align: center;
+          font-weight: normal;
+        }
+
+        &.active {
+          color: $PrimaryColor;
+        }
+      }
+
+      .mitte {
+        width: 40%;
+      }
+
+      /*.svg-red path {
+          fill: red;
+      }*/
+    }
   }
 
   .text {
@@ -88,255 +130,7 @@ blockquote {
   width: 20%;
 }
 
-/*Icons*/
-
-.philosophie {
-  position: absolute;
-  left: 40%;
-  top: 0%;
-}
-.partner {
-  position: absolute;
-  left: 65%;
-  top: 10%;
-}
-.community {
-  position: absolute;
-  left: 15%;
-  top: 10%;
-}
-.prozess {
-  position: absolute;
-  left: 75%;
-  top: 40%;
-}
-.ui {
-  position: absolute;
-  left: 5%;
-  top: 40%;
-}
-.abo {
-  position: absolute;
-  left: 60%;
-  top: 65%;
-}
-.service {
-  position: absolute;
-  left: 20%;
-  top: 65%;
-}
-.mitte {
-  position: absolute;
-  left: 35%;
-  top: 30%;
-}
-
-#tractor1 {
-  position: absolute;
-  left: 42%;
-  top: 27%;
-  transform: rotate(-10deg);
-}
-#tractor2 {
-  position: absolute;
-  left: 50%;
-  top: 28.5%;
-  transform: rotate(30deg);
-}
-#tractor3 {
-  position: absolute;
-  left: 54.3%;
-  top: 38%;
-  transform: rotate(90deg);
-}
-#tractor4 {
-  position: absolute;
-  left: 358px;
-  top: 80px;
-  transform: rotate(145deg);
-}
-#tractor5 {
-  position: absolute;
-  left: 280px;
-  top: -329px;
-  transform: rotate(204deg);
-  visibility: hidden;
-}
-#tractor6 {
-  position: absolute;
-  left: 227px;
-  top: -525px;
-  transform: rotate(270deg);
-  visibility: hidden;
-}
-#tractor7 {
-  position: absolute;
-  left: 242px;
-  top: -688px;
-  transform: rotate(300deg);
-  visibility: hidden;
-}
 /*----------------------Speechbubbles-------------------*/
-/*unten rechts*/
-.arrow_box_pfeil_unten_rechts {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_unten_rechts:after {
-  top: 100%;
-  left: 70%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-top-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-left: -30px;
-}
-
-/*unten link*/
-.arrow_box_pfeil_unten_links {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_unten_links:after {
-  top: 100%;
-  left: 30%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-top-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-left: -30px;
-}
-
-/*oben link*/
-.arrow_box_pfeil_oben_links {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_oben_links:after {
-  bottom: 100%;
-  left: 30%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-bottom-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-left: -30px;
-}
-
-/*oben rechts*/
-.arrow_box_pfeil_oben_rechts {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_oben_rechts:after {
-  bottom: 100%;
-  left: 70%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-bottom-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-left: -30px;
-}
-
-/*rechts*/
-.arrow_box_pfeil_rechts {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_rechts:after {
-  left: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-left-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-top: -30px;
-}
-
-/*links*/
-.arrow_box_pfeil_links {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_links:after {
-  right: 100%;
-  top: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-right-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-top: -30px;
-}
-
-/*für Preise oben mitte*/
-.arrow_box_pfeil_oben_mitte {
-  position: relative;
-  background-color: rgba(178, 219, 81, 0.8);
-  color: var(--dunkelblau);
-  padding: 30px;
-  border-radius: 4px;
-}
-.arrow_box_pfeil_oben_mitte:after {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(178, 219, 81, 0);
-  border-bottom-color: rgba(178, 219, 81, 0.8);
-  border-width: 30px;
-  margin-left: -30px;
-}
 
 /*----------------------prozess-------------------*/
 
