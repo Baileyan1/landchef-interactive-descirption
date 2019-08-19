@@ -45,10 +45,10 @@ blockquote {
       display: flex;
       flex-direction: column;
       align-items: center;
-      img {
-        width: 15%;
-        stroke: var(--mittelgrau);
-        fill: var(--mittelgrau);
+      .img {
+        width: 25%;
+        stroke: var($Gray2);
+        fill: var($Gray2);
         cursor: pointer;
       }
       h4 {
