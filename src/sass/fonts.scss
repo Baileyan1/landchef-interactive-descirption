@@ -1,0 +1,37 @@
+/*----------------------Schriften-------------------*/
+h1 {
+  color: var(--dunkelblau);
+  font-family: "Nunito Sans", regular;
+  text-align: center;
+  margin-top: 60px;
+}
+h2 {
+  color: var(--dunkelblau);
+  font-family: "Nunito Sans", regular;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+h3 {
+  color: var(--dunkelblau);
+  font-family: "Nunito Sans", regular;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  /*darf keine farbe bekommen, sonst script anpassen*/
+  font-family: "Nunito Sans", regular;
+}
+
+p {
+  font-family: "Roboto", regular;
+  font-size: 12pt;
+}
+q {
+  color: var(--dunkelblau);
+  font-family: "Nunito Sans", regular;
+}
+
+ul {
+  font-family: "Roboto", regular;
+  font-size: 12pt;
+}

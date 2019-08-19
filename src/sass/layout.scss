@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+$containerWidth: 960px;
+
+.container {
+  width: 100%;
+  padding: $SizeRegular;
+
+  .container-inner {
+    margin: 0 auto;
+    width: $containerWidth;
+  }
+
+  .columns {
+    display: flex;
+  }
+
+  .column {
+    flex: 0 0 50%;
+  }
+}
+
+.block {
+  // generates '.block-dark'
+  &-dark {
+    background-color: $Gray4;
+    color: $FontColorInverted;
+  }
+  &-primary {
+    background-color: $PrimaryColor;
+    color: $Gray4;
+  }
+}

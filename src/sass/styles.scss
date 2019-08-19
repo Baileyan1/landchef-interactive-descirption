@@ -3,5 +3,12 @@ body {
 }
 
 /** imports */
+@import "./helpers/helpers.scss";
 @import "./global.scss";
+@import "./fonts.scss";
 @import "./header.scss";
+@import "./slick.scss";
+
+@import "./layout.scss";
+
+@import "./landing-page.scss";
