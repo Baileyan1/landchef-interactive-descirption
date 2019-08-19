@@ -1,487 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- META DATA-->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name = "description" content = "Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.">
-    <meta name = "author" content = "landchef">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können."
+    />
+    <meta name="author" content="landchef" />
     <title>landchef</title>
     <!-- STYLESHEETS -->
-    <link href="./css/styles.css/styles.css" rel="stylesheet"/>
-    
-
+    <link href="./css/styles.css/styles.css" rel="stylesheet" />
 
     <!-- LIBRARIES-->
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!--slick-->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <!--tippy-->
     <script src="https://unpkg.com/popper.js@1"></script>
     <script src="https://unpkg.com/tippy.js@4"></script>
-</head>
-<body>
+  </head>
+  <body>
     <!--Hauptseite-->
-    <header> 
-        <img src="./assets/img/Logo.png" alt="Logo" class="logo" >
-        <h1>landchef</h1>
-        <div class="wrapperHeader">
-            <div>
-                <img src="./assets/img/right-arrow.svg" alt="Pfeil" class="pfeilLandwirt">
-                <img src="./assets/img/tractor.svg" alt="tractor" class="nav">
-            </div>  
-            <div class="question">
-                <p>Was für einen Betrieb hast du?</p>
-            </div>
-            <div>
-                <img src="./assets/img/Chef.svg" alt="Chefmütze" class="nav">
-                <img src="./assets/img/right-arrow.svg" alt="Pfeil" class="nav">
-            </div>
+    <header>
+      <img src="./assets/img/Logo.png" alt="Logo" class="logo" />
+      <h1>landchef</h1>
+      <div class="wrapperHeader">
+        <div>
+          <img
+            src="./assets/img/right-arrow.svg"
+            alt="Pfeil"
+            class="pfeilLandwirt"
+          />
+          <img src="./assets/img/tractor.svg" alt="tractor" class="nav" />
         </div>
+        <div class="question">
+          <p>Was für einen Betrieb hast du?</p>
+        </div>
+        <div>
+          <img src="./assets/img/Chef.svg" alt="Chefmütze" class="nav" />
+          <img src="./assets/img/right-arrow.svg" alt="Pfeil" class="nav" />
+        </div>
+      </div>
     </header>
-    <img src="./assets/img/Illustration-blue – 2@3x.png" alt="Illustration-" width="100%">
+    <img
+      src="./assets/img/Illustration-blue – 2@3x.png"
+      alt="Illustration-"
+      width="100%"
+    />
 
-    <!-- anpassen --> 
+    <!-- anpassen -->
     <h1>weiterlesen</h1>
 
-    <!-- Header Ende --> 
+    <!-- Header Ende -->
 
-    <div class="aussageL">
-        <h2>Ein Konzept, das auf Partnerschaft basiert …</h2>
-    </div>
-
-    <img src="./assets/img/Markplatz1.jpeg" alt="Ein Junge kauft einen Apfel" width="100%">
-    <div class="aussageR">
-            <h2>… und Bestellabläufe vereinfacht.</h2>
-        </div>
-
-    <img src="./assets/img/Markplatz2.jpeg" alt="Viele Äpfel" width="100%">
-
-    <blockquote class="einleitung">
-        Das Projekt landchef befasst sich mit der Erstellung einer Plattform für Gastronomen und Landwirte. Sie soll Gastronomen dazu dienen, Landwirte für den Direktbezug zu finden und ein Bestellsystem enthalten, mit dem Landwirte Aufträge entgegennehmen und verwalten können.
-    </blockquote>
-
-    <div id="trailer">
-        <h1>Trailer</h1>
-    </div>
-
-    <!--Das konzept von landchef - interaktions Kreis-->
-
-    <div class="container" id="concept-reel" data-first-id="philosophie">
-        <h2>Das Konzept von landchef</h2>
-        <div class="container-inner columns">
-            <div class="column">
-                <div class="illustration">
-                    <img src="./assets/img/world.svg" alt="Keis mit fahrendem Traktor" class="mitte">
-                    <!-- ICONS -->
-                    <div class="item" data-id="philosophie">
-                        <div class="img">
-                            <img src="./assets/img/yin-and-yang.svg" alt="philosophie" >
-                        </div>
-                        <h4>Philosophie</h4>
-                    </div>
-                    <div class="item" data-id="partner">
-                        <div class="img">
-                            <img src="./assets/img/partnerNeu.svg" alt="partner">
-                        </div>
-                        <h4 >Partnerschaft</h4>
-                    </div>
-                    <div class="item" data-id="conversation">
-                        <div class="img">
-                            <img src="./assets/img/conversation.svg" alt="community">
-                        </div>
-                         <h4>Community</h4>
-                    </div>
-                    <div class="item"  data-id="process">
-                        <div class="img">
-                            <img src="./assets/img/prozessGearsNew.svg" alt="Prozess">
-                        </div>
-                         <h4>Prozess-<br>vereinfachung</h4>
-                    </div>
-                    <div class="item"  data-id="ui">
-                        <div class="img">
-                            <img src="./assets/img/ui.svg" alt="Nutzererlebnis" >
-                        </div>
-                        <h4>Nutzererlebnis</h4>
-                    </div>
-                    <div class="item"  data-id="choice">
-                        <div class="img">
-                            <img src="./assets/img/choice.svg" alt="Abo" >
-                        </div>
-                        <h4>Abo-Modell</h4>
-                    </div>
-                    <div class="item"  data-id="help">
-                        <div class="img">
-                            <img src="./assets/img/help.svg" alt="Service">
-                        </div>
-                        <h4>Service und<br> Funktionalität</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="text">
-                    <!-- CONTENT -->
-                    <div data-id="philosophie" class="item">
-                        <h3>Philosophie</h3>
-                        <p>
-                            Die landchef Philosophie beruht zum einen darauf, die Region zu stärken und Persönlichkeit und Wertschätzung unter den Menschen zu fördern. Daher ist die landchef Partnerschaft die Grundlage für das landchef Konzept. <br> anderen möchte landchef Landwirte in ihrer Arbeit unterstützten und über die Direktvermarktung Alternativen für ein sicheres Einkommen erleichtern. Dabei legt das landchef Team besonderen Wert, den Menschen stupide Arbeit abzunehmen, um Zeit für persönliche Arbeit und Beziehungen zu schenken. <br> Außerdem möchte das landchef Team als Vorbild fungieren und partnerschaftlich mit seinen eigenen Kunden umgehen. So erhält Ehrlichkeit eine besondere Bedeutung in der Gestaltung des landchef Konzepts.
-                        </p>
-                    </div>
-                    <div data-id="partner" class="item">
-                        <h3>Partnerschaft</h3>
-                        <p>
-                            Das landchef Konzept basiert auf Partnerschaften, um die Persönlichkeit in der Region zu fördern und einen großen Wunsch der Nutzer von landchef zu erfüllen, Nähe zum Kunden, der zuverlässig und vertrauensvoll ist. Daher bietet landchef eine Plattform auf der Partnerschaften zwischen Gastronomen und Landwirten entstehen und gefestigt werden können. Um das Ziel zu erreichen, besteht das landchef Konzept darauf, dass Erzeuger und Abnehmer zu beginn einer Partnerschaft persönlich miteinander kommunizieren. Erst nach der initialen Kontaktaufnahme wird dem Gastronom die Möglichkeit gegeben einen Landwirt als Partner anzufragen. Viele der heutigen Prozesse des Warenbezugs sind stark abstrahiert. So werden jegliche Emotionen und Bindungen untereinander weg-digitalisiert.
-                        </p>
-                    </div>
-                    <div data-id="conversation" class="item">
-                        <h3>Community</h3>
-                        <p>
-                            Als Soziales Netzwerk bietet landchef mehrere Möglichkeiten der Vernetzung. Nicht nur Gastronomen und Landwirte können sich verpartnern, sondern auch Landwirte und Gastronomen untereinander. Dies ermöglicht es den beiden Gruppen in Kontakt zu bleiben und sich auszutauschen. Besonders für Landwirte, die derzeit bereits oft untereinander vernetzt und organisiert sind, ist dies eine interessante Funktion.
-                        </p>
-                    </div>
-                    <div data-id="process" class="item">
-                        <h3>Prozess</h3>
-                        <p>
-                            Die landchef App unterstützt etablierten Direktvermarkter im Kampf mit Papierkram und Bestellorganisation. Durch eine kommunikationsorientierte Plattform werden repetitive Organisationsaufgaben vereinfacht, um mehr Platz für direkte Kommunikation und damit Nähe zum Kunden herzustellen. Darunter gehören Kontaktaufnahme zu potentiellen Partnern, individuelle Angebotserstellung sowie die Abwicklung der Bestellprozesse.
-                        </p>
-                    </div>
-                    <div data-id="ui" class="item">
-                        <h3>Nutzererlebnis</h3>
-                        <p>
-                            Die Kernkompetenz von landchef stützt sich auf das Nutzererlebnis, denn die App baut hauptsächlich auf einen abgerundeten und zuverlässigen Ablauf auf. Das bedeutet, Funktionalität und Benutzerfreundlichkeit haben die höchste Priorität für das Tool sowie für denjenigen, der sie verwendet. Damit du deine Aufgaben ohne Hindernisse, Probleme oder ähnliches, das dich behindern könnte, erledigen kannst.
-                        </p>
-                    </div>
-                    <div data-id="choice" class="item">
-                        <h3>Abo-Modell</h3>
-                        <p>
-                            Die landchef App ist in einem Jahres-Abo erhältlich und bietet drei Pakete mit unterschiedlichen Leistungen an – das Starter, Basic und Pro Paket. Alle Pakete enthalten die Nutzung der landchef Community sowie das Bestelltool, welches über die Pakete unterschiedlich viele Partnerschaften und Bestellungen gewährt. Vor dem ersten Kauf der App besteht die Möglichkeit eines Probemonats, um die Funktionen der landchef App für die eigenen Zwecke zu prüfen. Ist der Monat abgelaufen, können die letzten Bestellungen noch abgeschlossen, aber keine neuen erstellt werden, oder die landchef wird abonniert.
-                        </p>
-                    </div>
-                    <div data-id="help" class="item">
-                        <h3>Service & Funktionalität</h3>
-                        <p>
-                            Das Leben der Nutzer von landchef zu vereinfachen und Zeit zu sparen, gehört zur landchef Philosophie, daher ist dem landchef Team besonderen wichtig, dass die Funktionalität der App zuverlässig abläuft. Darüberhinaus wird sehr stark auf engen Kontakt zu den Nutzer geachtet, um die landchef App stetig für diese zu verbessern und an ihre Lebenssituationen entsprechend anzupassen. Außerdem steht das landchef Team bei Fragen oder Problemen gerne stets zur Verfügung.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   
-    <!-- Grün Blau Box -->
-    <div class="flex">
-        <article class="links shadow">
-            <h2>Vorteile für Landwirten</h2> 
-            <ul>
-                <li>Regelmäßige Bestellungen</li>
-                <li>Potentielle und gezielte Kunden</li>
-                <li>Wertschätzung gegenüber Ware und Arbeit</li>
-                <li>Kundentreue und Zahlungsmoral</li>
-                <li>Aktualität – mit der Zeit gehen</li>
-                <li>Offen für Neues (Herausforderung)</li>
-            </ul>  
-            </article>  
-            <article class="rechts shadow">
-            <h2>Vorteile für Gastronomen</h2> 
-            <ul>
-                <li>Regionale qualitative Produkte</li>
-                <li>Zuverlässigkeit</li>
-                <li>Persönlicher Ansprechpartner</li>
-                <li>Inspiration für neue innovative Ideen</li>
-                <li>Wissen & Erfahrungen teilen</li>
-                <li>Gemeinsam den Wert der Regionalität hochhalten</li>
-            </ul>  
-        </article>
-    </div>
-    <!-- Fazit Partnerschaft-->
-    <blockquote>
-        Das Konzept der Partnerschaft ist nicht für jeden das richtige. Hierbei liegt vor allem im Fokus, Werte und Dienstleistungen in dem Verkaufsprozess zu integrieren und mit einer hohen Priorität zu versehen. <br> Im Vordergrund steht, dass der Landwirt nicht nur seine Ware anbietet und verkauft, sondern auch sein Wissen, seine Geschichte und seine Werte in eine Dienstleistung verpackt. Darunter gehören Pünktlichkeit und Zuverlässigkeit, Sortimentabstimmung, Flexibilität, sowie empfohlenerweise Innovationsfähigkeit. Das Konzept unterstützt dabei die Regionalität, Wertschätzung und Nachhaltigkeit der Waren.
-    </blockquote>
-
-    <!--Partnerschafts Prozess-->
-
-    <div class="flex">
-        
-        <div class="prozessÜbersicht">
-            <img src="./assets/img/prozess/4x/01prozess_ohneBilder@4x.png" alt="Bestellabwicklungsprozess"  class="übersichtBild wert" width="100%">
-
-            <img src="./assets/img/prozess/3x/verpackung.png" alt="Verpackung" class="übersichtVerpackung">
-            <p class="arrow_box_pfeil_oben_rechts" id="boxVerpackung">
-                Der Landwirt verpackt die Ware und kann den Bestellstatus anpassen.
-            </p>
-
-            <img src="./assets/img/prozess/3x/app.png" alt="App" class="übersichtApp">
-            <p class="arrow_box_pfeil_oben_links" id="boxApp">
-                Der Landwirt bereitet die Bestellungen vor mithilfe der Übersichtsfunktion  der landchef App.
-            </p>
-
-            <img src="./assets/img/prozess/3x/einkaufswagen.png" alt="Einkaufswagen" class="übersichtEinkaufswagen">
-            <p class="arrow_box_pfeil_oben_links" id="boxEinkaufswagen">
-                Der Landwirt erhält den Bestellauftrag vom Gastronomen.
-            </p>
-
-            <img src="./assets/img/prozess/3x/lieferung.png" alt="Lieferwagen" class="übersichtLieferung">
-            <p class="arrow_box_pfeil_rechts" id="boxLieferung">
-                Nach Vorbereitung der bestellten Ware, wird die Ware direkt geliefert.
-            </p>
-
-            <img src="./assets/img/prozess/3x/uhr.png" alt="Uhr" class="übersichtUhr" data-tippy-content="Der Gastronom gibt im besprochenen Zeitraum seine gewünschte Bestellmenge vom besprochenen Angebot an und sendet den Bestellauftrag über die landchef App an den Landwirten.">
-            <p class="arrow_box_pfeil_links" id="boxUhr">
-                
-            </p>
-
-            <img src="./assets/img/prozess/3x/partner.png" alt="Partner" class="übersichtPartner">
-            <p class="arrow_box_pfeil_unten_links" id="boxPartner">
-                In einem persönlichen Gespräch wird ein indivuelles Angebot ausgemacht.
-            </p>
-
-            <img src="./assets/img/prozess/3x/bill.png" alt="Rechnung" class="übersichtBill">
-            <p class="arrow_box_pfeil_unten_rechts" id="boxBill">
-                Der Landwirt verschickt die vom System automatisch generierte Rechnung an den Gastronom.
-            </p>
-
-            <img src="./assets/img/prozess/3x/kiste.png" alt="Kiste" class="übersichtKiste">
-            <p class="arrow_box_pfeil_unten_links" id="boxKiste">
-                    Der Gastronom erhält seine Lieferung.
-            </p>
-
-            <img src="./assets/img/prozess/3x/money.png" alt="Geld" class="übersichtMoney">
-            <p class="arrow_box_pfeil_unten_links" id="boxMoney">
-                    Der Gastronom bezahlt die Ware vom Landwirten.
-            </p>
-        </div> 
-    </div>
-
-    <div>
-        <img src="./assets/img/prozess_icons.svg" alt="Prozess">
-    </div>
-
-
-
-
-
-
-    
-    
-    <!-- -------------------------- -->
-
-    <div class="einzelneBox grün platz">
-        <p>
-            Auf der Suche der Landwirte nach neuen Absatzmärkten und der Nachfrage der Gastronomen nach lokalen Waren begegnen beide einem umständlichen Bestellprozess.
-        </p>
-    </div >
-
-    <div class="abstand">
-        <h2 class="reinerText">
-            Direktvermarktung
-        </h2>
-        <p class="reinerText">
-            Direktvermarktung stellt für Landwirte einen attraktiven Markt dar. Sie können ihre Produkte zu höheren Preisen direkt an ihre Kunden bringen. Die Ware kann so ohne Umwege und Zwischenhändler an die Kunden gelangen und der Landwirt erhält den gesamten Umsatz.
-            Für Gastronomen ist der direkte Bezug ein ebenso attraktives wie notwendiges Unterfangen. Der Trend geht bei Konsumenten klar in Richtung lokaler Lebensmittel und Gastronomien aller Art versuchen diesem Wunsch nachzukommen. <br>
-            Für Gastronomen wie Landwirte ist es jedoch zu Beginn oft schwierig, die passenden Geschäftspartner zu finden. Besonders für Landwirte ist es oftmals schwierig mit Rückgrat hinter ihren Produkten zu stehen und einen angemessenen Preis zu verlangen.
-            Der Bestellprozess in der Direktvermarktung ist zurzeit noch recht aufwändig. Kunden bestellen per Telefon, Fax, Email oder Whatsapp. Es fehlt an einem einzigen Kanal, der Bestellungen bündeln und für Landwirte übersichtlich darstellen kann.
-        </p>
-    </div>
-    <div class="flex">
-        <div class="rahmenWertschöpfung">
-            <img src="./assets/img/Wertschöpfungskette2.jpg" alt="Wertschöpfungskette" class="wert wertschöpfungskette">
-        
-            <p class="arrow_box_pfeil_unten_links" id="boxMittler">
-                    Landchef fungiert als eine Art Mittler im Direktverkauf von Landwirte an Gastronomen.
-            </p>
-            <img src="./assets/img/prozess/SVG/01Zeichenfläche 1.svg" alt="Pfeil" class="mittler">
-        </div>
-    </div>
-
-
-    <div class="einzelneBox blau">
-        <p>
-            Partner statt Kunden.
-        </p>
-    </div >
-
-    <div class="flex zeitstrahl">
-        <div class="textLinks" >
-            <p>
-                Heutzutage sind viele Kaufprozesse sehr nüchtern und neutral. Der persönliche Wert verschwindet immer mehr in Bild der Digitalisierung. Jedoch ist hierbei vor allem die Frage, wie die heutigen Medien genutzt werden. Landchef sieht eine Chance darin, regionale Kontakte durch Vernetzung wiederherszustellen, zu fördern und zu erleichtern. Die nimmt die App den persönlichen Kontakt nicht völlig ab und erinnert an die Vorteile einer solchen Beziehung.<br>
-                Die Partner Sektion bietet einen direkten Kanal zu allen Kontakten, die ein Landwirt zurzeit pflegt. Bestehende und vergangene Partner werden hier aufgelistet. Klickt der Nutzer auf einenPartner, kann er alle Informationen über diesen Kontakt einsehen. Dazu gehören wichtige Angaben wie der Ansprech- partner, die Adresse (sowie abweichende Liefer- und Rechnungsadressen), und Kontaktinformationen. <br>
-                Zudem zeigt diese Ansicht einen Zeitstrahl, der die Partnerschaft der beiden aufbereitet. Zu sehen ist der erste Kontakt, wann eine Partnerschaft beschlos- sen wurde, sowie weitere Aktivitäten wie verhandelte Angebote, aufgegebene Bestellungen und deren Notizen.
-            </p>
-        </div>
-        <div class="bildAufRechts" >
-            <img src="./assets/img/Timeline Gastronom.png" alt="Partner Zeitstrahl" id="zeitstrahl" width="100%">
-            <p id="smiley">
-                    😊
-            </p>
-        </div>
-    </div>
-   
-
-    <div>
-        <h2 class="reinerText">
-            Umsetzung
-        </h2>
-        <p class="reinerText umsetzung">
-            Landchef wird als Anwendung für das Web programmiert. Der Einsatz einer Web-App bringt mehrere Vorteile. 
-            Da der Herstellungsaufwand für ein digitales Produkt vergleichsweise relativ gering ist, fallen kaum Beschaffungskosten an und die Herstellung ist nicht ortsgebunden. 
-            Das bedeutet, es werden keine Zusatzanschaffungen benötigt, die zusätzliche Kosten mitbringen, und die Anwendung ist leicht, unkompliziert sowie für jeden über den Web-Browser zu erreichen. So kannst du die Funktionen der App über dein beliebiges Medium nutzen, ganz egal, ob Computer, Smartphone, Tablet oder ein klassischer Ausdruck.
-        </p>
-    </div>
-    <div class="wert">
-        <img src="./assets/img/System.png" alt="Technik">
-    </div>
-            <!-- Grün Blau Box -->
-    <div class="flex">
-        <article class="vision shadow">
-            <h2>Vision</h2> 
-            <p>
-                Eine Community zu schaffen, die den Handel zwischen Landwirten und Gastronomen fördert, bestärkt und vereinfacht, um dadurch langfristige Partnerschaften hervorzubringen.
-            </p>
-        </article>  
-        <article class="mission shadow">
-            <h2 >Mission</h2> 
-            <p>
-                Mehr Wertschätzung und faire Preise für die Ware von Landwirten generieren. Einen einfachen Bezug guter, regionaler Lebensmittel für Gastronomen ermöglichen. Weniger Zeit für Organisation und „Papierkram” und dafür mehr Zeit für Kreativität und Kundenkontakt schaffen.
-            </p> 
-        </article>
-    </div>
-    <h1>Das Gründerteam</h1>
-    <div class="flex gründer" >
-            <div class="jenny">
-                <img src="./assets/img/Gründerteam.jpeg" alt="Das Gründerteam" width="100%">
-              
-                <h2>Jennifer Rink</h2> 
-                <img src="./assets/img/mail.svg" alt="Email Symbol" width="30px;" id="emailSymbolJ">
-                <h3 class="email">748060<br>jennifer.rink@stud.h-da.de</h3>
-                <p id="boxJenny">
-                        jsdhfjsad
-                </p> 
-            </div>
-            <div class="paddi">
-                <img src="./assets/img/Gründerteam.jpeg" alt="Das Gründerteam" width="100%">
-                <h2>Patrik Keufen</h2> 
-                <img src="./assets/img/mail.svg" alt="Email Symbol" width="30px" id="emailSymbolP">
-                <h3 class="email">748518
-                        <br>patrik.keufen@stud.h-da.de</h3>
-                <p id="boxPaddi">
-                        jsdhfjsad
-                </p>
-            </div>
-    </div>
-
-    <h1>Preise</h1>
-    <div class="flex price">
-        <article>
-            <div>
-                <h2>Starter Paket</h2>
-                <p>
-                    beinhaltet die Community in Ihrer Region und 10 Partnerschaften zur Nutzung des Bestelltools von landchef.
-                </p>
-                <q id="preisStarter">
-                    Preis: 500€
-                </q>
-            </div>
-            <p class="arrow_box_pfeil_oben_mitte" id="boxStarter">
-                    Nutze die Rabbataktion im März und zahle nur <b>450€</b>.
-            </p>
-
-        </article>
-        <article>
-            <div>
-                <h2>Basic Paket</h2>
-                <p>
-                    beinhaltet die Community in Ihrer Region und bis zu 20 Partnerschaften zur Nutzung des Bestelltools
-                </p>
-                <q id="preisBasic">
-                    Preis: 1000€
-                </q>
-            </div>
-            <p class="arrow_box_pfeil_oben_mitte" id="boxBasic">
-                    Nutze die Rabbataktion im März und zahle nur <b>900€</b>.
-            </p>
-        </article>
-        <article>
-            <div>
-                <h2>Pro Paket</h2>
-                <p>
-                    beinhaltet die Community in Ihrer Region und unbegrenzte Partnerschaften zur Nutzung des Bestelltools
-                </p>
-                <q id="preisPro">
-                    Preis: 1500€
-                </q>
-            </div>
-            <p class="arrow_box_pfeil_oben_mitte" id="boxPro">
-                    Nutze die Rabbataktion im März und zahle nur <b>1400€</b>.
-            </p>
-        </article>
-    </div>
-    <div>
-        <h2>Finanzen</h2>
-        <p>
-            Tabelle
-        </p>
-        <img src="./assets/img/MitExistFörderung.png" alt="Grafik über den Kontostand und den Gewinn bzw. Verlust" class="wert">
-    </div> 
-
-    <div id="seitenanfang">
-        <a href="javascript:self.scrollTo(0,0);">
-            <img src="./assets/img/right-arrow.svg" alt="">
-        </a>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-        <article> 
-            <!-- image einfügen-->
-            <img src="./assets/img/Wein.jpeg" width="100%"/>
-
-
-
-            <h4>Listen</h4>
-            <ol>
-                <li>nummer 1</li>
-                <li>nummer 2</li>
-                <li>nummer 2</li>
-            </ol>
-            <h4>noch ne Aufzählung</h4>
-            <ul>
-                <li> ich bin soo unkreativ</li>
-                <li> jap</li>
-            </ul>
-        </article>
-        <footer>
-                <p>developed by jen</p>
-        </footer>
-    </div>
-
-
-    <div id="container">
-            <div id = "test">
-                <h2>Input eingeben</h2>
-                <input type="text" id="customer-amount" name="customer-amount" placeholder="Customer amount"/>
-                <textarea rows="4" name="description">Probiere aus wie viele Kunden landchef benötigt, um zu bestehen.</textarea>
-                <input id="submit" type="submit" value="Submit"/>
-            </div>
-
-    </div>
-
-
-
-
-<!--
+    <!--
     <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> 
 
    
@@ -498,13 +83,7 @@
   
 -->
 
-
-
-       
-
-
-
-<!--
+    <!--
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     
     <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
@@ -512,6 +91,6 @@
     <div>Icons made by <a href="https://www.flaticon.com/authors/hadrien" title="Hadrien">Hadrien</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"             title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 -->
 
-        <script src="./js/app.min.js"></script>
-    </body>
+    <script src="./js/app.min.js"></script>
+  </body>
 </html>
