@@ -339,15 +339,15 @@ blockquote {
   position: absolute;
   width: 100%;
   left: 20%;
-  top: -5%;
+  top: -17%;
 }
 #smiley {
   font-size: 30pt;
   width: 10%;
   position: absolute;
-  left: 56%;
-  top: 102%;
-  visibility: visible;
+  left: 77%;
+  top: 51%;
+  visibility: hidden;
 }
 
 /*
@@ -464,7 +464,6 @@ blockquote {
 /*---------------------- Team-------------------*/
 
 .gründer {
-  margin-bottom: 250px;
   justify-content: space-between;
   margin-top: 40px;
 }
@@ -544,11 +543,17 @@ blockquote {
 }
 
 #emailSymbolJ{
-  width: 20%;
+  width: 10%;
+  align-items: center;
 }
 
 .paddi .email {
   visibility: hidden;
+}
+
+#emailSymbolP{
+  width: 10%;
+  align-items: center;
 }
 
 /*----------------------Preis Modell------------------*/
