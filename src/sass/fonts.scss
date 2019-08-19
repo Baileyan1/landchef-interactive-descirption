@@ -1,37 +1,41 @@
+@import "./variables.scss";
 /*----------------------Schriften-------------------*/
 h1 {
-  color: var(--dunkelblau);
-  font-family: "Nunito Sans", regular;
+  color: $Gray4;
+  font-family: "Nunito Sans";
   text-align: center;
   margin-top: 60px;
 }
 h2 {
-  color: var(--dunkelblau);
-  font-family: "Nunito Sans", regular;
+  color: $Gray4;
+  font-family: "Nunito Sans";
   padding-left: 20px;
   margin-bottom: 40px;
 }
 h3 {
-  color: var(--dunkelblau);
-  font-family: "Nunito Sans", regular;
+  color: $Gray4;
+  font-family: "Nunito Sans";
   margin: 0;
   padding: 0;
 }
 h4 {
   /*darf keine farbe bekommen, sonst script anpassen*/
-  font-family: "Nunito Sans", regular;
+  font-family: "Nunito Sans";
 }
 
 p {
-  font-family: "Roboto", regular;
-  font-size: 12pt;
+  font-family: "Roboto";
+  font-size: $FontSizeRegular;
+
+  line-height: 1.5;
 }
+
 q {
   color: var(--dunkelblau);
-  font-family: "Nunito Sans", regular;
+  font-family: "Nunito Sans";
 }
 
 ul {
-  font-family: "Roboto", regular;
-  font-size: 12pt;
+  font-family: "Roboto";
+  font-size: $FontSizeRegular;
 }
