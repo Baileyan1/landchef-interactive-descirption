@@ -62,7 +62,7 @@ blockquote {
       img {
         width: 100%;
       }
-
+      transform: rotate(360 / 7 * 0 * 1deg) translateX(250%) rotate(90deg);
       @for $i from 0 through 7 {
         &[data-rotation="#{$i}"] {
           transform: rotate(360 / 7 * $i * 1deg) translateX(250%) rotate(90deg);
