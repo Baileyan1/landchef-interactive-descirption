@@ -2,11 +2,11 @@ function radar() {
   $(document).ready(() => {
     const pins = $("#locations .location");
 
-    $("#checkboxes .checkbox").on("click", function() {
+    $("#choose .option").on("click", function() {
       $(pins).removeClass("active");
-      const data = $(this).attr("data-product");
+      const data = $(this).attr("data-option");
 
-      $(`#locations .location[data-${data}]="true"`).addClass("active");
+      $(`#locations .location[data-${data}="true"]`).addClass("active");
     });
   });
 }

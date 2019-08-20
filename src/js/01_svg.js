@@ -23,6 +23,7 @@ const svgReload = () => {
         )
         .then(() => {
           tippyEverything();
+          radar();
         });
     });
   });

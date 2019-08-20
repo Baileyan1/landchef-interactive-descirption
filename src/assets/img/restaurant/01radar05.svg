@@ -27,19 +27,19 @@
     </g>
     <g id="choose">
       <g id="choose-2" data-name="choose">
-        <g id="Erdbeeren">
+        <g id="Erdbeeren" class="option" data-option="straberries">
           <text transform="translate(195.28 144.81)" font-size="14" fill="#68bc90" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">E<tspan x="8.11" y="0" letter-spacing="-0.01em">r</tspan><tspan x="12.71" y="0">dbee</tspan><tspan x="43.48" y="0" letter-spacing="-0.01em">r</tspan><tspan x="48.09" y="0">en</tspan></text>
           <rect x="190.84" y="131.53" width="81.08" height="18.43" rx="2.5" stroke-width="0.59" stroke="#68bc90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </g>
-        <g id="Kartoffeln">
+        <g id="Kartoffeln" class="option" data-option="potatos">
           <text transform="translate(285.19 145.14)" font-size="14" fill="#68bc90" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">Ka<tspan x="15.95" y="0" letter-spacing="0.04em">r</tspan><tspan x="21.2" y="0">to</tspan><tspan x="33.4" y="0" letter-spacing="0em">f</tspan><tspan x="37.87" y="0" letter-spacing="0em">f</tspan><tspan x="42.21" y="0">eln</tspan></text>
           <rect x="280.76" y="131.86" width="69.18" height="18.43" rx="2.31" stroke-width="0.54" stroke="#68bc90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </g>
-        <g id="Kräuter">
+        <g id="Kräuter" class="option" data-option="herbs">
           <text transform="translate(362.93 144.99)" font-size="14" fill="#68bc90" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">K<tspan x="8.58" y="0" letter-spacing="0em">r</tspan><tspan x="13.26" y="0">äuter</tspan></text>
           <rect x="358.49" y="131.72" width="54.37" height="18.43" rx="2.05" stroke-width="0.48" stroke="#68bc90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </g>
-        <g id="Karotten">
+        <g id="Karotten" class="option" data-option="carrots">
           <text transform="translate(426.03 145.25)" font-size="14" fill="#68bc90" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">Ka<tspan x="15.95" y="0" letter-spacing="-0.01em">r</tspan><tspan x="20.55" y="0">o</tspan><tspan x="28.18" y="0" letter-spacing="0.01em">t</tspan><tspan x="32.87" y="0">ten</tspan></text>
           <rect x="421.6" y="131.98" width="62.04" height="18.43" rx="2.19" stroke-width="0.51" stroke="#68bc90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </g>
