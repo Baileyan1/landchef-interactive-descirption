@@ -51,6 +51,7 @@ header {
       display: flex;
       background-color: $BackgroundColor;
       justify-content: space-between;
+      padding: $SizeExtraLarge 0;
 
       .question {
         color: $FontColorInverted;
@@ -59,15 +60,22 @@ header {
 
       .arrow {
         display: flex;
-        width: $SizeExtraLarge;
         height: $SizeExtraLarge;
-
+        align-items: center;
+        font-size: $FontSizeLarge;
+        font-weight: 300;
+        padding: 0 $SizeLarge;
         .replaced-svg,
         img {
-          width: 100%;
+          width: $SizeVeryLarge;
+          vertical-align: middle;
         }
 
         &.arrow-left {
+          img,
+          .replaced-svg {
+            transform: rotate(180deg);
+          }
         }
 
         &.arrow-right {
