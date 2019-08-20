@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1036" height="178" viewBox="0 0 1036 178">
+  <defs>
+    <clipPath id="clip-Illustration-blue_3">
+      <rect width="1036" height="178"/>
+    </clipPath>
+  </defs>
+  <g id="Illustration-blue_3" data-name="Illustration-blue – 3" clip-path="url(#clip-Illustration-blue_3)">
+    <g id="restaurant" transform="translate(995.384 91.789)">
+      <line id="Linie_1" data-name="Linie 1" y2="19.751" transform="translate(34.714 7.781)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_2" data-name="Linie 2" y1="19.751" transform="translate(1.197 7.781)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_1" data-name="Pfad 1" d="M2,12H7.985v5.387a2.993,2.993,0,0,1-2.993,2.993h0A2.993,2.993,0,0,1,2,17.387Z" transform="translate(-2 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_2" data-name="Pfad 2" d="M12,12v5.387a2.993,2.993,0,0,0,2.993,2.993h0a2.993,2.993,0,0,0,2.993-2.993V12Z" transform="translate(-6.015 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_30" data-name="Pfad 30" d="M12,12v5.387a2.993,2.993,0,0,0,2.993,2.993h0a2.993,2.993,0,0,0,2.993-2.993V12Z" transform="translate(0.292 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_31" data-name="Pfad 31" d="M12,12v5.387a3,3,0,0,0,3,2.993h0a3,3,0,0,0,3-2.993V12Z" transform="translate(6.599 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_32" data-name="Pfad 32" d="M12,12v5.387a2.859,2.859,0,0,0,2.7,2.993h0a2.859,2.859,0,0,0,2.7-2.993V12Z" transform="translate(12.593 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_6" data-name="Pfad 6" d="M52,12h5.985v5.387a2.993,2.993,0,0,1-2.993,2.993h0A2.993,2.993,0,0,1,52,17.387Z" transform="translate(-22.074 -12)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <rect id="Rechteck_2" data-name="Rechteck 2" width="16.759" height="13.168" transform="translate(3.591 10.773)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_9" data-name="Pfad 9" d="M42,49.971V38h8.379V49.971" transform="translate(-18.059 -22.438)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_3" data-name="Linie 3" x2="16.759" transform="translate(3.591 20.35)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <rect id="Rechteck_3" data-name="Rechteck 3" width="5.985" height="2.394" transform="translate(25.138 10.773)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="barn" transform="translate(479.115 58.005)">
+      <path id="Pfad_10" data-name="Pfad 10" d="M516.685,134.99V82.232s2.711-3.342,9.047-3.342,9.208,3.342,9.208,3.342v48.211l-9.208,2.284Z" transform="translate(-516.685 -73.066)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_11" data-name="Pfad 11" d="M532.953,104.717h38.2l.055,22.543-13.123-2.208.031-12.926H545.219v13.141l-12.266,1.8Z" transform="translate(-514.699 -69.912)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_12" data-name="Pfad 12" d="M571.1,105.691l-8.5-8.946h-21.39l-7.884,8.946Z" transform="translate(-514.653 -70.886)" fill="none" stroke="#203959" stroke-linecap="square" stroke-linejoin="bevel" stroke-width="1"/>
+      <path id="Pfad_13" data-name="Pfad 13" d="M576.475,133.183V84.637" transform="translate(-509.384 -72.364)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_14" data-name="Pfad 14" d="M580.73,89l-4.03,3.864" transform="translate(-509.356 -71.831)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_15" data-name="Pfad 15" d="M571.74,93.284l5.044,4.456" transform="translate(-509.962 -71.308)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_16" data-name="Pfad 16" d="M577.656,73.7s24.414,31.168,0,32.274S577.656,73.7,577.656,73.7Z" transform="translate(-510.564 -73.7)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_17" data-name="Pfad 17" d="M516.685,90.722h18.025v12.542H516.685Z" transform="translate(-516.685 -71.621)" fill="none" stroke="#203959" stroke-width="1"/>
+    </g>
+    <g id="landscape" transform="translate(0 111.34)">
+      <path id="Pfad_18" data-name="Pfad 18" d="M49.481,121.652S70.411,112.9,94.588,112.9s47.338,20.711,116.2,21.433,161.715-4.117,210.262-4.416,61.039-3.8,87.608-8.257,34.741-10.327,54.68-10.9,41.209,11.4,66.6,10.9c13.075-.258,98.122,7.161,176.1,8.257,73.275,1.03,148.868-4.267,166.335-4.267,36.014,0,50.31-8.742,86.248-8.869s22.521,0,22.521,0" transform="translate(-47.598 -109.046)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_21" data-name="Pfad 21" d="M74.36,113.972S54.52,125.255,47.8,133.1" transform="translate(-23.31 -109.773)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_22" data-name="Pfad 22" d="M70.377,113.972S53.512,123.563,47.8,130.231" transform="translate(-9.228 -108.651)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_23" data-name="Pfad 23" d="M114.231,118.873c33.562-11.861,44.529-11.387,58.811-6.028s25.115,17.772,42.687,21.7" transform="translate(-39.69 -109.23)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_24" data-name="Pfad 24" d="M182.3,120.3c-9.628,1.83-13.074,6.88-13.074,6.88" transform="translate(-32.975 -107.878)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_25" data-name="Pfad 25" d="M184.3,120.511c-11.721,2.227-15.084,8.082-15.084,8.082" transform="translate(-40.156 -111.218)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_26" data-name="Pfad 26" d="M185.116,120.617c-13.377,2.542-15.895,9.105-15.895,9.105" transform="translate(-54.631 -117.938)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_28" data-name="Pfad 28" d="M185.743,120.817c-13.377,2.542-16.522,8.881-16.522,8.881" transform="translate(-63.608 -120.158)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_29" data-name="Pfad 29" d="M184.231,121.441c-13.377,2.542-15.009,8.181-15.009,8.181" transform="translate(-73.707 -121.204)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_27" data-name="Pfad 27" d="M184.114,120.511c-11.572,2.2-14.893,7.979-14.893,7.979" transform="translate(-45.576 -114.585)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_19" data-name="Pfad 19" d="M77.533,113.972S55.322,126.6,47.8,135.385" transform="translate(-47.803 -108.651)" fill="none" stroke="#203959" stroke-width="1"/>
+      <path id="Pfad_20" data-name="Pfad 20" d="M77.533,113.972S55.322,126.6,47.8,135.385" transform="translate(-36.582 -109.773)" fill="none" stroke="#203959" stroke-width="1"/>
+    </g>
+    <g id="tractor-wrapper" transform="translate(172.138 109.377)">
+      <g id="tractor">
+      <g class="elem-inner"> 
+        <rect id="Rechteck_4" data-name="Rechteck 4" width="27.282" height="27.282" fill="none"/>
+        <g id="Gruppe_2" data-name="Gruppe 2" transform="translate(17.46 19.806)">
+          <path id="Pfad_33" data-name="Pfad 33" d="M33.477,36.4a3.819,3.819,0,1,0,4.566-.088C38,36.275,33.477,36.4,33.477,36.4Z" transform="translate(-32 -36.305)" fill="none" stroke="#203959" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="Gruppe_3" data-name="Gruppe 3" transform="translate(0.546 14.732)">
+          <path id="Pfad_34" data-name="Pfad 34" d="M7,30.547,7,27a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z" transform="translate(-1 -27)" fill="none" stroke="#203959" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <path id="Pfad_36" data-name="Pfad 36" d="M3.271,23.63a8.666,8.666,0,0,1,4.494-1.09A8.332,8.332,0,0,1,16.2,29.913" transform="translate(-1.06 -10.241)" fill="none" stroke="#203959" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Pfad_37" data-name="Pfad 37" d="M16.976,22.369h8.289a2.137,2.137,0,0,0,1.665-1.211l1.58-4.331c.219-.6-.428-1.006-1.021-1.006H17.11L14.732,7.083C14.609,6.5,14.252,6,13.659,6H5.073A1.078,1.078,0,0,0,4,7.083v9.1m9.415-3.747H7.283V8.183h4.792Z" transform="translate(-1.817 -2.726)" fill="none" stroke="#203959" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Pfad_38" data-name="Pfad 38" d="M35,18.093V14.179C35,11.455,37,11,38.274,11v1.984s-1.091-.974-1.091,1.29v3.819" transform="translate(-15.903 -4.998)" fill="none" stroke="#203959" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      </g>
+    </g>
+    <g id="truck-wrapper" transform="translate(569.749 95.372)">
+      <g id="truck">
+        <g class="elem-inner"> 
+          <path id="Pfad_41" data-name="Pfad 41" d="M259.849,111.226h5.909a1.6,1.6,0,0,1,1.178.512s4.9,6.97,5.138,7.354a3.323,3.323,0,0,1,.436,1.47v6.75a1.613,1.613,0,0,1-.544,1.2s-.657.682-.957.982-.437.417-1.21.417h-1.383s-.409-3.889-3.981-3.77-3.788,3.77-3.788,3.77h-7.761a4.007,4.007,0,0,0-3.983-3.77c-3.749-.067-3.894,3.77-3.894,3.77H242.82a1.191,1.191,0,0,1-.912-.5c-.159-.276-.718-1.431-.718-1.431a2.288,2.288,0,0,1-.266-1.165v-4.061" transform="translate(-237.643 -105.362)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+          <g id="Rechteck_5" data-name="Rechteck 5" transform="translate(0 0)" fill="none" stroke="#203959" stroke-width="1">
+            <rect width="22.443" height="17.954" rx="3" stroke="none"/>
+            <rect x="0.5" y="0.5" width="21.443" height="16.954" rx="2.5" fill="none"/>
+          </g>
+          <path id="Pfad_42" data-name="Pfad 42" d="M260.235,122.14h5.843v-2.328a1.372,1.372,0,0,0-.237-.789c-.164-.26-3.091-4.494-3.091-4.494-.3-.512-.4-.75-1.216-.75h-1.3Z" transform="translate(-235.285 -105.05)" fill="none" stroke="#203959" stroke-linejoin="round" stroke-width="1"/>
+          <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(6.733 20.198)" fill="none" stroke="#203959" stroke-width="1">
+            <ellipse cx="4.489" cy="4.489" rx="4.489" ry="4.489" stroke="none"/>
+            <ellipse cx="4.489" cy="4.489" rx="3.989" ry="3.989" fill="none"/>
+          </g>
+          <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(22.443 20.198)" fill="none" stroke="#203959" stroke-width="1">
+            <ellipse cx="4.489" cy="4.489" rx="4.489" ry="4.489" stroke="none"/>
+            <ellipse cx="4.489" cy="4.489" rx="3.989" ry="3.989" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

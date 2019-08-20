@@ -32,6 +32,12 @@ $(document).ready(() => {
     $(`#page-container section[data-page-index=${nextSlide}]`).toggleClass(
       "page-hidden"
     );
+
+    $(`#line-illustration`).attr("data-index", nextSlide);
+    $(`#line-illustration`).attr(
+      "data-direction",
+      nextSlide > currentSlide ? "forward" : "backward"
+    );
   });
 
   // click handler
