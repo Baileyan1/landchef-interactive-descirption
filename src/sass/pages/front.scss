@@ -4,13 +4,19 @@
   margin: 0 20% 0 20%;
   padding: 30%;
 }
-.statement-left {
-  padding-top: 10%;
-  text-align: left;
-}
-.statement-right {
-  padding-top: 5%;
-  text-align: right;
+
+#section-images {
+  .statement-left {
+    padding-top: 10%;
+    text-align: left;
+  }
+  .statement-right {
+    padding-top: 5%;
+    text-align: right;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 blockquote {
@@ -48,15 +54,15 @@ blockquote {
   left: 0;
   width: 100%;
   height: 100%;
-  }
-  
+}
+
 .responsive-video {
   position: relative;
   padding-bottom: 46.25%; /* 56.25% -->  Default for 1600x900 videos 16:9 ratio*/
   padding-top: 0px;
- 
+
   overflow: hidden;
-  }
+}
 
 /*--------------landchef Konzept Ausrichtung-----------*/
 /*--------------landchef concept reel-----------*/
@@ -152,7 +158,6 @@ blockquote {
 .linkeSeite div {
   width: 20%;
 }
-
 
 /*----------------------prozess-------------------*/
 
@@ -331,8 +336,7 @@ blockquote {
 
 /*----------------------Partner Zeitstrahl-------------------*/
 
-
-#relativ{
+#relativ {
   position: relative;
 }
 #timeline {
@@ -367,8 +371,6 @@ blockquote {
   left: 10%;
   top: -80%;
 } */
-
-
 
 /*----------------------Grün Blau Boxen-------------------*/
 
@@ -494,7 +496,6 @@ blockquote {
   text-align: left;
 }
 
-
 .paddi {
   box-shadow: 10px 10px 15px #eaeaea;
   width: 300px;
@@ -542,7 +543,7 @@ blockquote {
   visibility: hidden;
 }
 
-#emailSymbolJ{
+#emailSymbolJ {
   width: 10%;
   align-items: center;
 }
@@ -551,7 +552,7 @@ blockquote {
   visibility: hidden;
 }
 
-#emailSymbolP{
+#emailSymbolP {
   width: 10%;
   align-items: center;
 }
@@ -646,7 +647,6 @@ blockquote {
 /*.abstand {
   margin-bottom: 150px;
 } */ /*wenn es keine weiteren  Probleme macht löschen*/
-
 
 .linkerText div,
 .linkerText h3,

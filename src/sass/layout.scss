@@ -14,28 +14,31 @@ $containerMargin-bottom: 50px;
     width: 100%;
   }
 
-  .columns {
-    display: flex;
-  }
-
   .column {
     flex: 0 0 50%;
     display: block;
     min-width: 0;
   }
-  img{
-    width: 100%;
-  }
-}
 
-.container-small {
-  width: 69%;
-  margin: auto;
-  margin-bottom: $containerMargin-bottom;
-  align-items: center;
+  .columns {
+    display: flex;
 
-  img {
-    width: 100%;
+    &.columns-2-1 {
+      .column:nth-child(0) {
+        flex: 0 0 33%;
+      }
+      .column:nth-child(1) {
+        flex: 0 0 67%;
+      }
+    }
+    &.columns-1-2 {
+      .column:nth-child(1) {
+        flex: 0 0 33%;
+      }
+      .column:nth-child(2) {
+        flex: 0 0 67%;
+      }
+    }
   }
 }
 

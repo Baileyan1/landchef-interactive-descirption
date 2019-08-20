@@ -50,44 +50,15 @@ html {
   section {
     &.page-hidden {
       position: absolute;
-      transform: translateX(100%);
+      transform: translate(100%, -100%);
       visibility: hidden;
     }
   }
 }
 
-/*
-.nav {
-    background-color: var(--mittelgrünPrimary);
-    color: var(--dunkelblau);
-    list-style: none;
-    text-align: right;
-    padding: 10px 0 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.regular-img {
+  width: 100%;
 }
-
-.nav img{
-    text-align: left;
-    margin-left: 20px;
-}
-
-.nav li{
-    display: inline-block;
-    padding-right: 50px;
-    font-family: "Nunito Sans", regular;
-}
-
-.nav li a{
-    text-decoration: none;
-    color: var(--dunkelblau);
-}
-
-.nav li a:hover{
-    background-color: var(--dunkelblau);
-    color: white;
-} */
 
 #container {
   background-color: var(--dunkelblau);
