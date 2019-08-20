@@ -1,7 +1,7 @@
 // Prozess Abildung
 
 $(document).ready(function() {
-  $(".übersichtVerpackung").hover(
+  /*$(".übersichtVerpackung").hover(
     function() {
       $("#boxVerpackung").css("visibility", "visible");
     },
@@ -91,10 +91,10 @@ $(document).ready(function() {
     function() {
       $("#boxMittler").css("visibility", "hidden");
     }
-  );
+  );*/
 
   // Smiley
-  $("#zeitstrahl, #smiley").hover(
+  $("#timeline, #smiley").hover(
     function() {
       $("#smiley").css("visibility", "visible");
     },
@@ -138,6 +138,7 @@ $(document).ready(function() {
     }
   );
 
+  /*
   // Preise
   $("#preisStarter").hover(
     function() {
@@ -164,5 +165,6 @@ $(document).ready(function() {
     function() {
       $("#boxPro").css("visibility", "hidden");
     }
-  );
+  );*/
+  
 });
