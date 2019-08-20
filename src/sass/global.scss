@@ -112,7 +112,16 @@ html {
       transform: translate(150px, -4px);
     }
     #truck {
-      transform: translate(0, 0px);
+      transform: translate(0, 0);
+    }
+    &[data-direction="backward"] {
+      #tractor {
+        transition: transform 5s ease-in-out;
+      }
+      #truck {
+        transition: transform 5s ease-in-out;
+        transform: translate(150px, 8px);
+      }
     }
   }
   &[data-index="2"] {
