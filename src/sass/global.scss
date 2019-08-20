@@ -56,6 +56,75 @@ html {
   }
 }
 
+#line-illustration {
+  width: 100%;
+  svg {
+    width: 100%;
+
+    #tractor {
+      transition: transform 5s ease-in-out;
+    }
+
+    #truck {
+      transition: transform 5s 5s ease-in-out;
+    }
+
+    .elem-inner {
+      transition: transform 0.3s;
+      transform-origin: 10px 10px;
+    }
+  }
+
+  &[data-direction="backward"] {
+    #tractor {
+      transition: transform 5s 5s ease-in-out;
+    }
+    #truck {
+      transition: transform 5s ease-in-out;
+    }
+    #tractor .elem-inner {
+      transform: scaleX(-1);
+    }
+    #truck .elem-inner {
+      transform: scaleX(-1);
+    }
+  }
+
+  &[data-index="0"] {
+    #tractor {
+      transform: translate(0, 0);
+    }
+    #truck {
+      transform: translate(0px, 0px);
+    }
+
+    &[data-direction="backward"] {
+      #tractor {
+        transition: transform 5s ease-in-out;
+      }
+      #truck {
+        transition: transform 5s ease-in-out;
+      }
+    }
+  }
+  &[data-index="1"] {
+    #tractor {
+      transform: translate(150px, -4px);
+    }
+    #truck {
+      transform: translate(0, 0px);
+    }
+  }
+  &[data-index="2"] {
+    #tractor {
+      transform: translate(270px, -12px);
+    }
+    #truck {
+      transform: translate(385px, -3px);
+    }
+  }
+}
+
 .regular-img {
   width: 100%;
 }
