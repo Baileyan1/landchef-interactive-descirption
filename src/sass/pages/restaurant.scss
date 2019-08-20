@@ -14,6 +14,16 @@
     padding-left: 20%;
   }
 
+  .items {
+    .item {
+      border: solid 1px $Gray1;
+      border-radius: $BorderRadiusStandard;
+      padding: $SizeSmall $SizeVerySmall;
+      margin-top: $SizeSmall;
+      box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+    }
+  }
+
   #section-radar #product-search {
     .location {
       &.active {
