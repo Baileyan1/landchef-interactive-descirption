@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="section-partners">
     <div class="container-inner">
       <div class="columns">
         <div class="column">
@@ -56,11 +56,83 @@
           </p>
         </div>
         <div class="column">
-          <img
-            src="/assets/img/farmer/newOffer.png"
-            alt=""
-            class="regular-img"
-          />
+          <div class="partnerList">
+            <div class="options">
+              <div class="option active" data-value="restaurant">
+                Gastronomen
+              </div>
+              <div class="option" data-value="farmer">Landwirte</div>
+            </div>
+            <div class="lists">
+              <div class="items" data-value="farmer">
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Spargelbauer Lendmann
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Hofgut Saalfeld
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Familie Maier
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Hofgut Sauerich
+                </div>
+              </div>
+              <div class="items active" data-value="restaurant">
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Restaurant Seither
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Karlshof
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Zum Einhorn
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Schützenhaus
+                </div>
+                <div
+                  class="item"
+                  data-tippy-content=""
+                  data-tippy-placement="left"
+                >
+                  Luigis
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -112,6 +184,47 @@
             alt=""
             class="regular-img"
           />
+          <div id="order">
+            <div class="header">
+              <div class="name">Restaurant Seither</div>
+              <div class="toggle">+</div>
+            </div>
+            <div class="content">
+              <div class="attributes">
+                <div
+                  class="attribute"
+                  data-value="Frankfurt"
+                  data-placeholder="Route"
+                >
+                  Route
+                </div>
+                <div
+                  class="attribute"
+                  data-value="Tim M."
+                  data-placeholder="Fahrer"
+                >
+                  + Fahrer
+                </div>
+              </div>
+              <div class="products">
+                <div class="product">
+                  <div class="name">Kartoffeln</div>
+                  <div class="container-name">Kiste 10kg</div>
+                </div>
+                <div class="product">
+                  <div class="name">Eisberg Salat</div>
+                  <div class="container-name">Kiste 1kg</div>
+                </div>
+                <div class="product">
+                  <div class="name">Karotten</div>
+                  <div class="container-name">Kiste 10Kg</div>
+                </div>
+                <div class="actions">
+                  <div class="action">Lieferschein erstellen</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -141,4 +254,6 @@
   svgReload();
 
   pictureCarousel();
+  partnerList();
+  dropdown();
 </script>
