@@ -20,6 +20,8 @@ $containerMargin-bottom: 100px;
 
   .column {
     flex: 0 0 50%;
+    display: block;
+    min-width: 0;
   }
 }
 
@@ -34,20 +36,20 @@ $containerMargin-bottom: 100px;
   }
 }
 
-$blockHeight: 450px;
+$blockHeight: 80vh;
 
 .block {
   // generates '.block-dark'
   &-dark {
     background-color: $Gray4;
     color: $FontColorInverted;
-    height: $blockHeight;
+    min-height: $blockHeight;
     box-shadow: 10px 10px 15px #eaeaea;
   }
   &-primary {
     background-color: $PrimaryColor;
     color: $Gray4;
-    height: $blockHeight;
+    min-height: $blockHeight;
     box-shadow: 10px 10px 15px #eaeaea;
   }
 }

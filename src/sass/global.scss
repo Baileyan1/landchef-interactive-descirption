@@ -46,6 +46,16 @@ html {
   }
 }
 
+#page-container {
+  section {
+    &.page-hidden {
+      position: absolute;
+      transform: translateX(100%);
+      visibility: hidden;
+    }
+  }
+}
+
 /*
 .nav {
     background-color: var(--mittelgrünPrimary);

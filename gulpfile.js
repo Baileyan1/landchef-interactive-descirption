@@ -41,7 +41,7 @@ gulp.task("watch", function() {
   gulp
     .watch("src/js/*.js")
     .on("change", gulp.parallel(["scripts", browserSync.reload]));
-  gulp.watch("src/sass/*.scss").on("change", gulp.parallel(["styles"]));
+  gulp.watch("src/sass/**/*.scss").on("change", gulp.parallel(["styles"]));
   gulp
     .watch("src/**/*.html")
     .on("change", gulp.parallel(["html", browserSync.reload]));

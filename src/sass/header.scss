@@ -3,69 +3,100 @@
 
 header {
   .header {
-    .wrapperHeader {
-      background-color: $BackgroundColor;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .header-inner {
+      width: 960px;
+      margin: 0 auto;
       display: flex;
-      /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+
+      .logo {
+        height: $SizeExtraLarge * 2;
+      }
+      .name {
+        font-size: $FontSizeRegular * 2;
+        margin-left: $SizeRegular;
+      }
+    }
+
+    .title {
+      background-color: rgba($Gray4, 0.8);
+      display: block;
+      text-align: left;
+      color: $FontColorInverted;
+      padding-top: $SizeExtraLarge;
+      padding-bottom: $SizeVeryLarge * 2;
+
+      .headline {
+        font-size: 52px;
+        width: 960px;
+        margin: auto;
+      }
+
+      .sub-headline {
+        width: 960px;
+        margin: auto;
+        height: $SizeExtraLarge;
+        font-size: $FontSizeLarge;
+        padding-top: $SizeLarge;
+      }
+    }
+
+    .header-sub {
+      display: flex;
+      background-color: $BackgroundColor;
       justify-content: space-between;
-      margin-top: 40px;
-      padding: $SizeRegular;
+
+      .question {
+        color: $FontColorInverted;
+        font-size: $FontSizeLarge;
+      }
+
+      .arrow {
+        display: flex;
+        width: $SizeExtraLarge;
+        height: $SizeExtraLarge;
+
+        .replaced-svg,
+        img {
+          width: 100%;
+        }
+
+        &.arrow-left {
+        }
+
+        &.arrow-right {
+        }
+      }
     }
 
     &-front {
-      /* background-color: white; */
-      text-align: center;
-      margin: 0;
       background-image: url(/assets/img/unscharfeKuh.jpeg);
-      background-size: 100%;
+      background-size: 100% 100%;
       background-repeat: no-repeat;
 
-      .wrapperHeader {
-        .pfeilLandwirt {
-          transform: rotate(180deg);
-          width: 70px;
-        }
+      .header-sub {
       }
     }
 
     &-farmer {
-      /* background-color: white; */
-      text-align: center;
-      margin: 0;
       background-image: url(/assets/img/HintergundLandwirt.jpeg);
-      background-size: 100%;
+      background-size: 100% 100%;
       background-repeat: no-repeat;
 
-      .wrapperHeader {
-        display: flex;
+      .header-sub {
         /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
         justify-content: flex-end;
-        margin-top: 40px;
-
-        .pfeilLandchef {
-          transform: rotate(180deg);
-          width: 70px;
-        }
-      }
-
-      &-restaurant {
       }
     }
-  }
 
-  .logo {
-    margin-top: 30px;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .nav {
-    width: 70px;
-  }
-  .question p {
-    font-size: 20pt;
-    font-family: "Nunito Sans", regular;
-    color: var(--dunkelgrau);
+    &-restaurant {
+    }
   }
 }
