@@ -3,7 +3,7 @@
 
 header {
   .header {
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,8 +30,7 @@ header {
       display: block;
       text-align: left;
       color: $FontColorInverted;
-      padding-top: $SizeExtraLarge;
-      padding-bottom: $SizeVeryLarge * 2;
+      padding: $SizeExtraLarge $SizeRegular ($SizeVeryLarge * 2);
 
       .headline {
         font-size: 52px;
@@ -78,7 +77,7 @@ header {
 
     &-front {
       background-image: url(/assets/img/unscharfeKuh.jpeg);
-      background-size: 100% 100%;
+      background-size: cover;
       background-repeat: no-repeat;
 
       .header-sub {
@@ -87,7 +86,7 @@ header {
 
     &-farmer {
       background-image: url(/assets/img/HintergundLandwirt.jpeg);
-      background-size: 100% 100%;
+      background-size: cover;
       background-repeat: no-repeat;
 
       .header-sub {
@@ -97,6 +96,14 @@ header {
     }
 
     &-restaurant {
+      background-image: url(/assets/img/restaurant/HintergrundGastronom.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      .header-sub {
+        /*sorgt für Platz zwischen den div, aber nahe dem Rand links und rechts*/
+        justify-content: flex-start;
+      }
     }
   }
 }

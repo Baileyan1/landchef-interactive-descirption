@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "./variables.scss";
 
 // Default Variables
 
@@ -176,9 +177,12 @@ $slick-opacity-not-active: 0.25 !default;
         position: absolute;
         top: 0;
         left: 0;
-        content: $slick-dot-character;
-        width: 20px;
-        height: 20px;
+        content: "";
+        border-radius: 50%;
+        background-color: $PrimaryColor;
+        border: solid 1px $Gray4;
+        width: 6px;
+        height: 6px;
         font-family: $slick-font-family;
         font-size: $slick-dot-size;
         line-height: 20px;

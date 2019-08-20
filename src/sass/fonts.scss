@@ -6,12 +6,13 @@ h1 {
   font-family: "Nunito Sans";
   text-align: center;
   margin-top: 60px;
-
-/*Abschnittsüberchrift*/
 }
+/*Abschnittsüberchrift*/
 h2 {
-  color: $Gray4;
+  color: $FontColorStandard;
   font-family: "Nunito Sans";
+  font-size: $FontSizeVeryLarge;
+  font-weight: 300;
   /*padding-left: 20px;*/ /*wird jetzt über container-small erstmal geregelt*/
   margin-bottom: 40px;
 }
@@ -27,18 +28,25 @@ h4 {
 }
 
 /*Schrift für block*/
-h5{
+h5 {
   font-family: "Nunito Sans";
-  font-size: 5em;
+  font-size: 5em;
   color: white;
-  
 }
 
 p {
   font-family: "Roboto";
+  font-weight: 300;
   font-size: $FontSizeRegular;
 
   line-height: 1.5;
+
+  &.large {
+    font-weight: 300;
+    font-size: $FontSizeLarge;
+
+    line-height: 1.4;
+  }
 }
 
 q {

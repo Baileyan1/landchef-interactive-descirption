@@ -7,21 +7,26 @@ $containerMargin-bottom: 50px;
   width: 100%;
   padding: $SizeExtraLarge $SizeRegular;
   margin-bottom: $containerMargin-bottom;
+  box-sizing: border-box;
 
   .container-inner {
     margin: 0 auto;
     max-width: $containerWidth;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .column {
     flex: 0 0 50%;
     display: block;
     min-width: 0;
+    padding: $SizeRegular;
+    box-sizing: border-box;
   }
 
   .columns {
     display: flex;
+    justify-content: center;
 
     &.columns-2-1 {
       .column:nth-child(0) {
@@ -45,17 +50,16 @@ $containerMargin-bottom: 50px;
 $blockHeight: 80vh;
 
 .block {
+  padding: $SizeExtraLarge 0;
   // generates '.block-dark'
   &-dark {
     background-color: $Gray4;
     color: $FontColorInverted;
-    min-height: $blockHeight;
     box-shadow: 10px 10px 15px #eaeaea;
   }
   &-primary {
     background-color: $PrimaryColor;
     color: $Gray4;
-    min-height: $blockHeight;
     box-shadow: 10px 10px 15px #eaeaea;
   }
 }
