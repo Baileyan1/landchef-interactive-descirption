@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 $containerWidth: 960px;
-$containerMargin-bottom: 100px;
+$containerMargin-bottom: 50px;
 
 .container {
   width: 100%;
@@ -22,6 +22,9 @@ $containerMargin-bottom: 100px;
     flex: 0 0 50%;
     display: block;
     min-width: 0;
+  }
+  img{
+    width: 100%;
   }
 }
 
