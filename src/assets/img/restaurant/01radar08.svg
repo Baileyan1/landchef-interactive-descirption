@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 595.28 795.46">
-  <title>01radar07</title>
+  <title>01radar08</title>
   <g style="isolation: isolate">
     <g id="backrground">
       <rect x="-16.93" y="197.12" width="628.47" height="621.66" fill="#f5f5f5"/>
@@ -12,14 +12,14 @@
       <circle id="circle-green" cx="296.7" cy="510.84" r="9.47" fill="#68bc90"/>
     </g>
     <g id="locations">
-      <path id="location8" d="M311.11,587.26A16.48,16.48,0,1,0,278.85,592c2.34,9.49,15.86,20.1,15.86,20.1s15.28-12,16.18-21.87h0A16.32,16.32,0,0,0,311.11,587.26Z" fill="#525252"/>
-      <path id="location7" d="M490.32,718.11a16.47,16.47,0,1,0-32.26,4.69c2.34,9.48,15.86,20.09,15.86,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,490.32,718.11Z" fill="#525252"/>
-      <path id="location6" d="M142.59,357.83a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,142.59,357.83Z" fill="#525252"/>
-      <path id="location5" d="M332.26,308.38A16.48,16.48,0,1,0,300,313.07c2.35,9.48,15.87,20.09,15.87,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,332.26,308.38Z" fill="#525252"/>
-      <path id="location4" d="M555.41,330.78a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,555.41,330.78Z" fill="#525252"/>
-      <path id="location3" d="M261.41,459.78a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,261.41,459.78Z" fill="#525252"/>
-      <path id="location2" d="M127.88,678.46a16.48,16.48,0,1,0-32.95,0,16.17,16.17,0,0,0,.69,4.69c2.34,9.48,15.86,20.09,15.86,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,127.88,678.46Z" fill="#525252"/>
-      <path id="location1" d="M117.13,400.63a16.48,16.48,0,1,0-32.27,4.69c2.35,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,117.13,400.63Z" fill="#525252"/>
+      <path id="location8" class="location" data-straberries="true" data-tippy-content="Restaurant 8" d="M311.11,587.26A16.48,16.48,0,1,0,278.85,592c2.34,9.49,15.86,20.1,15.86,20.1s15.28-12,16.18-21.87h0A16.32,16.32,0,0,0,311.11,587.26Z" fill="#525252"/>
+      <path id="location7" data-tippy-content="Restaurant 7"  d="M490.32,718.11a16.47,16.47,0,1,0-32.26,4.69c2.34,9.48,15.86,20.09,15.86,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,490.32,718.11Z" fill="#525252"/>
+      <path id="location6" data-tippy-content="Restaurant 6" d="M142.59,357.83a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,142.59,357.83Z" fill="#525252"/>
+      <path id="location5" data-tippy-content="Restaurant 5" d="M332.26,308.38A16.48,16.48,0,1,0,300,313.07c2.35,9.48,15.87,20.09,15.87,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,332.26,308.38Z" fill="#525252"/>
+      <path id="location4" data-tippy-content="Restaurant 4" d="M555.41,330.78a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,555.41,330.78Z" fill="#525252"/>
+      <path id="location3" data-tippy-content="Restaurant 3" d="M261.41,459.78a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,261.41,459.78Z" fill="#525252"/>
+      <path id="location2" data-tippy-content="Restaurant 2" d="M127.88,678.46a16.48,16.48,0,1,0-32.95,0,16.17,16.17,0,0,0,.69,4.69c2.34,9.48,15.86,20.09,15.86,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,127.88,678.46Z" fill="#525252"/>
+      <path id="location1" data-tippy-content="Restaurant 1" d="M117.13,400.63a16.48,16.48,0,1,0-32.27,4.69c2.35,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,117.13,400.63Z" fill="#525252"/>
     </g>
     <g id="header">
       <g>
@@ -27,7 +27,7 @@
         <rect x="-1.42" y="-1.81" width="596.69" height="202.38" fill="#fff"/>
       </g>
       <text transform="translate(117.56 65.09)" font-size="28" fill="#6a6a6a" font-family="NunitoSans-Light, Nunito Sans" font-weight="300"><tspan letter-spacing="-0.06em">W</tspan><tspan x="29.15" y="0">elche </tspan><tspan x="100.88" y="0" letter-spacing="-0.05em">W</tspan><tspan x="130.03" y="0">a</tspan><tspan x="144.76" y="0" letter-spacing="-0.01em">r</tspan><tspan x="153.97" y="0">en benötig</tspan><tspan x="284.73" y="0" letter-spacing="0em">s</tspan><tspan x="297.97" y="0">t d</tspan><tspan x="330.23" y="0" letter-spacing="-0.01em">u</tspan><tspan x="345.43" y="0">?</tspan></text>
-      <g id="Erdbeeren">
+      <g id="Erdbeeren" >
         <text transform="translate(34.79 174.26)" font-size="14" fill="#68bc90" font-family="NunitoSans-Light, Nunito Sans" font-weight="300">E<tspan x="8.11" y="0" letter-spacing="-0.01em">r</tspan><tspan x="12.71" y="0">dbee</tspan><tspan x="43.48" y="0" letter-spacing="-0.01em">r</tspan><tspan x="48.09" y="0">en</tspan></text>
         <rect x="30.35" y="160.98" width="81.08" height="18.43" rx="2.5" stroke-width="0.59" stroke="#68bc90" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
       </g>
