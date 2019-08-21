@@ -31,7 +31,7 @@
     }
   }
 
-  #section-partners{
+  #section-partners {
     .options {
       border: 1px solid $Gray2;
       border-radius: $BorderRadiusStandard;
@@ -181,7 +181,7 @@
     }
   }
 
-  #section-overview{
+  #section-overview {
     .items {
       .item {
         border: solid 1px $Gray1;
@@ -189,8 +189,17 @@
         padding: $SizeSmall $SizeVerySmall;
         margin-top: $SizeSmall;
         box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+        background-color: $White;
+
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+        &:active {
+          transform: scale(1);
+        }
       }
     }
   }
-
 }
