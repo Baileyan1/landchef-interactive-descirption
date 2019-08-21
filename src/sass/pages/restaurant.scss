@@ -14,15 +14,26 @@
     padding-left: 20%;
   }
 
+.lists {
   .items {
+      width: 100%;
     .item {
       border: solid 1px $Gray1;
       border-radius: $BorderRadiusStandard;
       padding: $SizeSmall $SizeVerySmall;
       margin-top: $SizeSmall;
       box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+      display: flex;
+      .inner-left{
+            flex: 0 0 15%;
+            text-align: center;
+        }
+      .inner-right{
+            flex: 0 0 80%;
+      }
     }
   }
+}
 
   #section-radar #product-search {
     .location {

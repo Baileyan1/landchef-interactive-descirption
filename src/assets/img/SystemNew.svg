@@ -1,6 +1,6 @@
 <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418.8 543.93">
   <title>SystemNew</title>
-  <g id="server" data-tippy-content="Der Server stellt den Code der Webapp, die REST api und die Datenbank bereit. Es werden explizit Server in Europa, in Frankfurt am Main, verwendet, welches den Datenschutz erheblich erleichtert, da bei innereuropäischer Nutzung zunächst europäisches Datenschutzrecht gilt und die Daten nicht erst über einen anderen Kontinent wandern.">
+  <g id="server" data-tippy-content="Der Server stellt den Code der Webapp, die REST api und die Datenbank bereit. Es werden explizit Server in Europa, in Frankfurt am Main, verwendet, welches den Datenschutz erheblich erleichtert, da bei innereuropäischer Nutzung zunächst europäisches Datenschutzrecht gilt und die Daten nicht erst über einen anderen Kontinent wandern." data-tippy-placement="left">
     <g id="server-2" data-name="server">
       <rect x="86.1" width="234.06" height="291.86" fill="#eaeaea"/>
     </g>
