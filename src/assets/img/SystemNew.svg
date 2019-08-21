@@ -10,18 +10,18 @@
     <rect y="330.72" width="418.8" height="213.21" fill="#eaeaea"/>
     <text transform="translate(4.55 532) scale(1.06 1)" font-size="18" fill="#213959" font-family="NunitoSans-Regular, Nunito Sans"><tspan letter-spacing="-0.06em">W</tspan><tspan x="18.81" y="0">ebapp</tspan></text>
   </g>
-  <g id="rest" data-tippy-content="Die Serverstruktur von landchef stellt eine REST api bereit. Dies sichert die Trennung von App und Datenbank durch eine feste Protokollierung der Anfragen. So können in Zukunft weitere Funktionen geschrieben, oder Änderungen an der Datenbankstruktur  ohne  Einfluss auf vorhandene Komponenten vorgenommen werden.">
+  <g id="rest" data-tippy-content="Die Serverstruktur von landchef stellt eine REST api bereit. Dies sichert die Trennung von App und Datenbank durch eine feste Protokollierung der Anfragen. So können in Zukunft weitere Funktionen geschrieben, oder Änderungen an der Datenbankstruktur  ohne  Einfluss auf vorhandene Komponenten vorgenommen werden." data-tippy-placement="left">
     <rect x="167.38" y="151.05" width="91.35" height="59.1" fill="#213959"/>
     <text transform="translate(191.3 174.13)" font-size="18" fill="#fff" font-family="NunitoSans-Regular, Nunito Sans">R<tspan x="12.35" y="0" letter-spacing="-0.01em">E</tspan><tspan x="22.64" y="0" letter-spacing="-0.02em">S</tspan><tspan x="33.48" y="0">T</tspan><tspan x="10.03" y="21.6">api</tspan></text>
     <line x1="243.62" y1="151.03" x2="243.7" y2="211.28" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.97"/>
     <line x1="182.05" y1="150.92" x2="182.05" y2="210.3" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.97"/>
   </g>
   <g id="angular" data-tippy-content="Angular ist ein Framework, dass die gemeinsame Arbeit an einem Projekt für die Web Version der landchef App vereinfacht.
-  Mithilfe eines weiteren Framworks (z.B. NativeScript) kann die App für weitere Betriebssystem wie iOS, iPadOS oder Android optimiert werden.">
+  Mithilfe eines weiteren Framworks (z.B. NativeScript) kann die App für weitere Betriebssystem wie iOS, iPadOS oder Android optimiert werden." data-tippy-placement="left">
     <rect x="167.26" y="437.91" width="91.35" height="90.6" fill="#213959"/>
     <text transform="translate(181.23 483.55)" font-size="18" fill="#fff" font-family="NunitoSans-Regular, Nunito Sans">Angular</text>
   </g>
-  <g id="datenbank" data-tippy-content="Als Datenspeicher kommt eine doku- mentenbasierte Datenbankstruktur zum Einsatz, wie beispielsweise MongoDB. Der Vorteil einer solchen, nicht rela- tionalen, Datenbank liegt in der hohen Anpassbarkeit der Struktur der gespei- cherten Daten. Dies ist besonders hilfreich bei der Entwicklung von Features, wie der anpassbaren Auftragsübersicht.">
+  <g id="datenbank" data-tippy-content="Als Datenspeicher kommt eine doku- mentenbasierte Datenbankstruktur zum Einsatz, wie beispielsweise MongoDB. Der Vorteil einer solchen, nicht rela- tionalen, Datenbank liegt in der hohen Anpassbarkeit der Struktur der gespei- cherten Daten. Dies ist besonders hilfreich bei der Entwicklung von Features, wie der anpassbaren Auftragsübersicht." data-tippy-placement="left">
     <ellipse cx="211.88" cy="86.25" rx="23.89" ry="11.52" fill="#213959"/>
     <rect x="188.05" y="25.86" width="47.64" height="61.1" fill="#213959"/>
     <ellipse cx="212.01" cy="26.75" rx="24.54" ry="11.52" fill="#213959" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
