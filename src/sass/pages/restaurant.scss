@@ -79,4 +79,68 @@
       }
     }
   }
+
+  #section-appointment {
+    #appointment {
+      box-shadow: 0 $SizeSmall $SizeLarge -$SizeTiny rgba($Gray4, 0.2);
+      border: solid 1px $Gray1;
+      border-radius: $BorderRadiusStandard;
+      padding: $SizeRegular $SizeLarge;
+
+      .header {
+        font-size: $FontSizeLarge;
+      }
+      .time-hint {
+        color: $FontColorVeryLight;
+        font-size: $FontSizeSmall;
+        margin-top: $SizeSmall;
+      }
+
+      .actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: $SizeLarge;
+
+        .action {
+          border-radius: $BorderRadiusStandard;
+          padding: $SizeVerySmall $SizeSmall;
+          background-color: $Gray1;
+
+          &.primary {
+            background-color: $PrimaryColor;
+            color: white;
+            font-weight: bold;
+            font-size: $FontSizeRegular;
+          }
+        }
+      }
+
+      .calendar {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        font-family: "Nunito Sans";
+
+        .column {
+          display: flex;
+          flex-direction: column;
+          width: $SizeExtraLarge;
+          flex: 0 0 $SizeExtraLarge;
+        }
+        .slot {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: $SizeLarge;
+          height: $SizeLarge;
+          margin: $SizeSmall;
+
+          &.available {
+            border-radius: 50%;
+            background-color: $Gray1;
+          }
+        }
+      }
+    }
+  }
 }
