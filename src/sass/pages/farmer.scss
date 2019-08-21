@@ -33,11 +33,12 @@
 
   #section-partners {
     .options {
-      border: 1px solid $Gray2;
+      border: 1px solid $Gray4;
       border-radius: $BorderRadiusStandard;
       padding: 1px;
       display: flex;
       justify-content: stretch;
+      margin: 0 $SizeExtraLarge $SizeLarge $SizeExtraLarge;
 
       .option {
         border-radius: $BorderRadiusStandard;
@@ -45,7 +46,8 @@
         flex-grow: 1;
         text-align: center;
         &.active {
-          background-color: $Gray2;
+          background-color: $Gray4;
+          color: $FontColorInverted;
         }
         &:not(:last-child) {
           margin-right: 1px;
@@ -74,6 +76,7 @@
 
           position: absolute;
           width: 100%;
+          pointer-events: none;
         }
         .item {
           border: solid 1px $Gray1;
@@ -210,6 +213,66 @@
             100% {
               transform: translate(0, 0);
             }
+          }
+        }
+      }
+    }
+  }
+
+  #offers {
+    margin-top: $SizeExtraLarge;
+
+    #price {
+      border: solid 1px $Gray1;
+      border-radius: $BorderRadiusStandard;
+      background-color: $White;
+      box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+      padding: 0 $SizeTiny;
+      box-sizing: border-box;
+      input {
+        padding: $SizeSmall $SizeRegular;
+        width: 100%;
+        border: none;
+        appearance: none;
+        box-sizing: border-box;
+        color: $FontColorStandard;
+        font-size: $FontSizeRegular;
+      }
+    }
+
+    [data-dropdown] {
+      cursor: default;
+      margin-bottom: $SizeLarge;
+      [data-display] {
+        border: solid 1px $Gray1;
+        border-radius: $BorderRadiusStandard;
+        background-color: $White;
+        box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+        padding: $SizeSmall $SizeRegular;
+        position: relative;
+        z-index: 10;
+
+        transition: transform 0.3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      [data-content] {
+        padding: $SizeRegular 0 0 0;
+        position: relative;
+        margin: -$SizeVerySmall $SizeVerySmall 0 $SizeVerySmall;
+        box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+
+        [data-item] {
+          padding: $SizeSmall $SizeSmall;
+          &:not(:last-child) {
+            border-bottom: solid 1px $Gray1;
+          }
+
+          &:hover {
+            background-color: $Gray1;
           }
         }
       }

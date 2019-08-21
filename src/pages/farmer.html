@@ -142,11 +142,27 @@
     <div class="container-inner">
       <div class="columns">
         <div class="column">
-          <img
-            src="/assets/img/farmer/newOffer.png"
-            alt=""
-            class="regular-img"
-          />
+          <div id="offers">
+            <div id="product" data-dropdown="product">
+              <div data-display>+ Produkt</div>
+              <div data-content>
+                <div data-item>Spargel, Grün</div>
+                <div data-item>Spargel, Weiß</div>
+                <div data-item>Kartoffeln</div>
+              </div>
+            </div>
+
+            <div id="product" data-dropdown>
+              <div data-display>+ Verpackung</div>
+              <div data-content>
+                <div data-item>Kiste 5Kg</div>
+                <div data-item>Kiste 10kg</div>
+                <div data-item>Netz 500g</div>
+              </div>
+            </div>
+
+            <div id="price"><input type="text" placeholder="+ Preis" /></div>
+          </div>
         </div>
         <div class="column">
           <h2>Individuelle Angebote</h2>
@@ -246,21 +262,21 @@
         <div class="column">
           <h4>Neue Aufträge</h4>
           <div id="order-list" class="items">
-            <div id="list-group-item-1" class="item first">
+            <div class="item first">
               Restaurant Seither
             </div>
-            <div id="list-group-item-2" class="item">Gaststätte Karlshof</div>
-            <div id="list-group-item-3" class="item">Zum Feld</div>
+            <div class="item">Gaststätte Karlshof</div>
+            <div class="item">Zum Feld</div>
 
             <h4>Bereit zur Ernte</h4>
 
-            <div id="list-group-item-1" class="item">Schützenklause</div>
-            <div id="list-group-item-2" class="item">Café Neuhausers</div>
+            <div class="item">Schützenklause</div>
+            <div class="item">Café Neuhausers</div>
+            <h4>Bereit zur Lieferung</h4>
+            <div class="item">Restraurant Seither</div>
+            <div class="item">Restraurant Romana</div>
 
-            <h4>Fertig</h4>
-
-            <div id="list-group-item-1" class="item">Restraurant Seither</div>
-            <div id="list-group-item-2" class="item">Restraurant Romana</div>
+            <h4 class="last">Fertig</h4>
           </div>
         </div>
       </div>
@@ -275,5 +291,6 @@
   pictureCarousel();
   partnerList();
   dropdown();
+  offers();
   sortable();
 </script>
