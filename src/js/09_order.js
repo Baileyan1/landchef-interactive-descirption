@@ -17,5 +17,8 @@ function dropdown() {
         $(this).text($(this).attr("data-placeholder"));
       }
     });
+    $(".action").on("click", function(){
+      $("#confirmation").css("visibility", "visible");
+    }); 
   });
 }
