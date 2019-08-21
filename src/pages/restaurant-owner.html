@@ -172,7 +172,7 @@
   </div>
 
   <!--Bestellung abschicken-->
-  <div class="container block block-dark">
+  <div class="container block block-dark" id="section-ordering">
     <div class="container-inner columns">
       <div class="column">
         <div>
@@ -189,41 +189,28 @@
         </div>
       </div>
       <div class="column">
-        <div class="lists">
-          <div class="items">
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Erdbeeren</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Kartoffeln</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Kräuter</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Karotten</p>
-              </div>
-            </div>
+        <div class="items">
+          <div class="item">
+            <div class="add" data-amount="5"></div>
+            <div class="name">Kartoffeln, 10kg Kiste</div>
           </div>
+          <div class="item">
+            <div class="add" data-amount="4"></div>
+            <div class="name">Süßkartoffeln, 8Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="4"></div>
+            <div class="name">Karotten, 12Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="1"></div>
+            <div class="name">Schwarze Karotten, 12Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="1"></div>
+            <div class="name">Weiße Karotten, 12Kg Kiste</div>
+          </div>
+          <div id="btn-order" class="disabled">Jetzt Bestellen</div>
         </div>
       </div>
     </div>
@@ -235,4 +222,5 @@
   svgReload();
   tippyEverything();
   appointment();
+  newOrder();
 </script>
