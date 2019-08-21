@@ -4,7 +4,7 @@ function partnerList() {
       const value = $(this).attr("data-value");
 
       $(`#section-partners .items`).removeClass("active");
-      $(`#section-partners .items[data-value="${value}"`).addClass("active");
+      $(`#section-partners .items[data-value="${value}"]`).addClass("active");
 
       $("#section-partners .option").removeClass("active");
       $(this).addClass("active");
