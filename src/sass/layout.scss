@@ -57,21 +57,20 @@ $blockHeight: 80vh;
     color: $FontColorInverted;
     box-shadow: 10px 10px 15px #eaeaea;
 
-    &-text{
+    &-text {
       color: white;
     }
-    &-footer-text{
-      color: $FontColorVeryLight  ;
+    &-footer-text {
+      color: $FontColorInverted;
+      margin: 0;
     }
-    a{
+    a {
       color: $SecondaryColor;
     }
-    
   }
   &-primary {
     background-color: $PrimaryColor;
     color: $Gray4;
     box-shadow: 10px 10px 15px #eaeaea;
   }
- 
 }

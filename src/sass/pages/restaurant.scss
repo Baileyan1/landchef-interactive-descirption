@@ -138,6 +138,15 @@
             opacity: 0.5;
           }
 
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+          &:active {
+            transform: scale(0.95);
+          }
+
           &#btn-call {
             animation: shake 0.5s linear;
 
