@@ -47,8 +47,6 @@ function hover() {
       }
     );
 
-
-
     $(document).ready(function(){
       $("#boxJenny, #boxPaddi").hover(function() {
           $(this).animate({ 
@@ -59,7 +57,6 @@ function hover() {
               height:"-=172px",
               marginTop:"+=172px"}, 500);
          });
-  });
-
+    });
   });
 }
