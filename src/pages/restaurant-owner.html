@@ -53,23 +53,31 @@
         <div id="appointment">
           <div class="bubble"></div>
 
-          <div class="content" id="step1" style="display: none;">
+          <div class="content" id="appointment-step-1">
             <div class="header">
               Hans ist erreichbar! <br />
               Rufe ihn jetzt an.
             </div>
-            <div class="time-hint">Mo. - Fr. 10 - 16 Uhr</div>
+            <div class="time-hint">
+              <img src="/assets/img/restaurant/clock.png" class="clock" />Mo. -
+              Fr. 10 - 16 Uhr
+            </div>
             <div class="actions">
-              <div class="action primary">Termin ausmachen</div>
-              <div class="action secondary">Anrufen</div>
+              <div class="action primary" id="btn-choose-appointment">
+                Termin ausmachen
+              </div>
+              <div class="action secondary" id="btn-call">Anrufen</div>
             </div>
           </div>
 
-          <div class="content" id="step2">
-            <div class="header"></div>
-            <div class="description"></div>
+          <div class="content" id="appointment-step-2" style="display: none;">
+            <div class="header">Einen persönlichen Termin vereinbaren</div>
+            <div class="description">
+              Wähle einen Zeitslot der für dich passt. Hans muss den Termin dann
+              noch bestätigen
+            </div>
             <div class="calendar">
-              <div class="column">
+              <div class="row">
                 <div class="slot"></div>
                 <div class="slot time">10</div>
                 <div class="slot time">12</div>
@@ -78,8 +86,8 @@
                 <div class="slot time">15</div>
                 <div class="slot time">16</div>
               </div>
-              <div class="column">
-                <div class="slot day">Mo</div>
+              <div class="row">
+                <div class="slot day" data-day="1">Mo</div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
@@ -87,8 +95,8 @@
                 <div class="slot available"></div>
                 <div class="slot available"></div>
               </div>
-              <div class="column">
-                <div class="slot">Di</div>
+              <div class="row">
+                <div class="slot day" data-day="2">Di</div>
                 <div class="slot"></div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
@@ -96,8 +104,8 @@
                 <div class="slot available"></div>
                 <div class="slot"></div>
               </div>
-              <div class="column">
-                <div class="slot">Mi</div>
+              <div class="row">
+                <div class="slot day" data-day="3">Mi</div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
@@ -105,8 +113,8 @@
                 <div class="slot available"></div>
                 <div class="slot available"></div>
               </div>
-              <div class="column">
-                <div class="slot">Do</div>
+              <div class="row">
+                <div class="slot day" data-day="4">Do</div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
@@ -114,8 +122,8 @@
                 <div class="slot available"></div>
                 <div class="slot available"></div>
               </div>
-              <div class="column">
-                <div class="slot">Fr</div>
+              <div class="row">
+                <div class="slot day" data-day="5">Fr</div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
                 <div class="slot available"></div>
@@ -123,8 +131,8 @@
                 <div class="slot available"></div>
                 <div class="slot available"></div>
               </div>
-              <div class="column">
-                <div class="slot">Sa</div>
+              <div class="row">
+                <div class="slot day" data-day="6">Sa</div>
                 <div class="slot"></div>
                 <div class="slot"></div>
                 <div class="slot"></div>
@@ -132,8 +140,8 @@
                 <div class="slot"></div>
                 <div class="slot"></div>
               </div>
-              <div class="column">
-                <div class="slot">So</div>
+              <div class="row">
+                <div class="slot day" data-day="0">So</div>
                 <div class="slot"></div>
                 <div class="slot"></div>
                 <div class="slot"></div>
@@ -144,7 +152,18 @@
             </div>
             <div class="actions">
               <div></div>
-              <div class="action primary">Termin ausmachen</div>
+              <div class="action primary disabled" id="btn-make-appointment">
+                Termin ausmachen
+              </div>
+            </div>
+          </div>
+
+          <div class="content" id="appointment-step-3" style="display: none;">
+            <div class="header">
+              Klasse! Termin angefragt.
+            </div>
+            <div class="description">
+              Wir benachrichtigen dich sobald Hans deine Anfrage gesehen hat.
             </div>
           </div>
         </div>
@@ -215,4 +234,5 @@
   radar();
   svgReload();
   tippyEverything();
+  appointment();
 </script>
