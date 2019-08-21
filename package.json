@@ -4,6 +4,7 @@
   "description": "Hierbei handelt es sich um die interactive Darstellung des Projekts landchef für eine Bachelor Arbeit des Studiengangs Interactive Media Design",
   "main": "start",
   "dependencies": {
+    "http-server": "^0.11.1",
     "jquery": "^3.4.1",
     "slick-carousel": "^1.8.1"
   },
@@ -17,7 +18,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "start": "./node_modules/.bin/http-server ./build",
+    "start-dev": "gulp"
   },
   "repository": {
     "type": "git",
