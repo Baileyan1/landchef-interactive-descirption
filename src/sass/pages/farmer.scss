@@ -190,14 +190,27 @@
         margin-top: $SizeSmall;
         box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
         background-color: $White;
-
-        transition: 0.3s;
-
-        &:hover {
-          transform: scale(1.05);
+        cursor: default;
+        &.placeholder {
+          background-color: rgba($PrimaryColor, 0.2);
         }
-        &:active {
-          transform: scale(1);
+
+        &.first:first-child {
+          animation: dragAnimation 5s 2s infinite;
+          @keyframes dragAnimation {
+            0% {
+              transform: translate(0, 0);
+            }
+            10% {
+              transform: translate(10px, 10px);
+            }
+            20% {
+              transform: translate(0, 0);
+            }
+            100% {
+              transform: translate(0, 0);
+            }
+          }
         }
       }
     }
