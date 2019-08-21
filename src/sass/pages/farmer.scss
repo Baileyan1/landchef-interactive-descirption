@@ -179,19 +179,27 @@
           color: $FontColorInverted;
           padding: $SizeTiny $SizeVerySmall;
           font-size: $FontSizeSmall;
+          transition: transform 0.3s;
+          cursor: default;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+          &:active {
+            transform: scale(0.95);
+          }
         }
       }
     }
   }
 
-#confirmation{
-  visibility: hidden;
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 10px;
-}
-
+  #confirmation {
+    visibility: hidden;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
 
   #section-overview {
     .items {
