@@ -14,20 +14,20 @@ function hover() {
     );
 
     //Gründer
-    $(".jenny img, #boxJenny").hover(
+    $("#boxJenny").hover(
       function() {
-        $("#boxJenny, .jenny .email").css("visibility", "visible");
+        $("#jennyText, .jenny .email").css("visibility", "visible");
       },
       function() {
-        $("#boxJenny, .jenny .email").css("visibility", "hidden");
+        $("#jennyText, .jenny .email").css("visibility", "hidden");
       }
     );
-    $(".paddi img, #boxPaddi").hover(
+    $("#boxPaddi").hover(
       function() {
-        $("#boxPaddi, .paddi .email").css("visibility", "visible");
+        $("#paddiText, .paddi .email").css("visibility", "visible");
       },
       function() {
-        $("#boxPaddi, .paddi .email").css("visibility", "hidden");
+        $("#paddiText, .paddi .email").css("visibility", "hidden");
       }
     );
     $("#emailSymbolJ").hover(
@@ -46,5 +46,17 @@ function hover() {
         $(".paddi .email").css("visibility", "hidden");
       }
     );
+
+    $(document).ready(function(){
+      $("#boxJenny, #boxPaddi").hover(function() {
+          $(this).animate({ 
+              height:"+=172px",
+              marginTop:"-=172px"}, 200);},
+      function() {
+          $(this).animate({ 
+              height:"-=172px",
+              marginTop:"+=172px"}, 500);
+         });
+    });
   });
 }

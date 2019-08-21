@@ -54,7 +54,10 @@ function pictureCarousel() {
     $(".picture-carousel").slick({
       arrows: false,
       dots: true,
-      adaptiveHeight: false
+      adaptiveHeight: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+
     });
   });
 }
