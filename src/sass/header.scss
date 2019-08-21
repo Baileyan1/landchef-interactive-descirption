@@ -115,3 +115,31 @@ header {
     }
   }
 }
+
+
+
+/*-------------footer-------------------*/
+
+footer{
+  font-size: $SizeSmall;
+  
+  .no-bottom{
+    margin-bottom: 0%;
+  }
+  #logo{
+    flex: 0 0 5%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+  #name{
+    padding-left: 1%;
+
+  }
+
+
+}
+
+
+

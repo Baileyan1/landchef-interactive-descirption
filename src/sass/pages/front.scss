@@ -22,7 +22,7 @@
 blockquote {
   width: 50%;
   text-align: center;
-  color: #5c4c40;
+  color: $FontColorLight;
 
   font-family: "Roboto", regular;
   font-size: 16pt;
@@ -37,9 +37,6 @@ blockquote {
   column-gap: 50px;
 }
 
-.einleitung {
-  border-left: 3px solid #897860;
-}
 
 #trailer {
   margin: 200px;
@@ -677,14 +674,8 @@ blockquote {
   margin-right: auto;
 }
 
-/*----------------------Fußzeile-------------------*/
 
-footer {
-  background-color: var(--hellgrau);
-  color: var(--mittelgrau);
-  clear: both;
-  padding-left: 10px;
-}
+
 
 /*----------------------aus Erklärvideo 1-------------------*/
 
