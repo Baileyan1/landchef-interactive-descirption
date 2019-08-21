@@ -31,7 +31,7 @@
     }
   }
 
-  #section-partners {
+  #section-partners{
     .options {
       border: 1px solid $Gray2;
       border-radius: $BorderRadiusStandard;
@@ -180,4 +180,17 @@
       }
     }
   }
+
+  #section-overview{
+    .items {
+      .item {
+        border: solid 1px $Gray1;
+        border-radius: $BorderRadiusStandard;
+        padding: $SizeSmall $SizeVerySmall;
+        margin-top: $SizeSmall;
+        box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+      }
+    }
+  }
+
 }
