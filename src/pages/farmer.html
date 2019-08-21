@@ -142,11 +142,27 @@
     <div class="container-inner">
       <div class="columns">
         <div class="column">
-          <img
-            src="/assets/img/farmer/newOffer.png"
-            alt=""
-            class="regular-img"
-          />
+          <div id="offers">
+            <div id="product" data-dropdown="product">
+              <div data-display>+ Produkt</div>
+              <div data-content>
+                <div data-item>Spargel, Grün</div>
+                <div data-item>Spargel, Weiß</div>
+                <div data-item>Kartoffeln</div>
+              </div>
+            </div>
+
+            <div id="product" data-dropdown>
+              <div data-display>+ Verpackung</div>
+              <div data-content>
+                <div data-item>Kiste 5Kg</div>
+                <div data-item>Kiste 10kg</div>
+                <div data-item>Netz 500g</div>
+              </div>
+            </div>
+
+            <div id="price"><input type="text" placeholder="+ Preis" /></div>
+          </div>
         </div>
         <div class="column">
           <h2>Individuelle Angebote</h2>
@@ -275,5 +291,6 @@
   pictureCarousel();
   partnerList();
   dropdown();
+  offers();
   sortable();
 </script>

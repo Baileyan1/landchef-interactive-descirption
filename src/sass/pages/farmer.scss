@@ -215,4 +215,64 @@
       }
     }
   }
+
+  #offers {
+    margin-top: $SizeExtraLarge;
+
+    #price {
+      border: solid 1px $Gray1;
+      border-radius: $BorderRadiusStandard;
+      background-color: $White;
+      box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+      padding: 0 $SizeTiny;
+      box-sizing: border-box;
+      input {
+        padding: $SizeSmall $SizeRegular;
+        width: 100%;
+        border: none;
+        appearance: none;
+        box-sizing: border-box;
+        color: $FontColorStandard;
+        font-size: $FontSizeRegular;
+      }
+    }
+
+    [data-dropdown] {
+      cursor: default;
+      margin-bottom: $SizeLarge;
+      [data-display] {
+        border: solid 1px $Gray1;
+        border-radius: $BorderRadiusStandard;
+        background-color: $White;
+        box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+        padding: $SizeSmall $SizeRegular;
+        position: relative;
+        z-index: 10;
+
+        transition: transform 0.3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      [data-content] {
+        padding: $SizeRegular 0 0 0;
+        position: relative;
+        margin: -$SizeVerySmall $SizeVerySmall 0 $SizeVerySmall;
+        box-shadow: 0 5px 12px -4px rgba($Gray4, 0.2);
+
+        [data-item] {
+          padding: $SizeSmall $SizeSmall;
+          &:not(:last-child) {
+            border-bottom: solid 1px $Gray1;
+          }
+
+          &:hover {
+            background-color: $Gray1;
+          }
+        }
+      }
+    }
+  }
 }
