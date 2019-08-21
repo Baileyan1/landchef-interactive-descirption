@@ -9,7 +9,7 @@
       <circle id="circle-green" cx="347.51" cy="510.84" r="9.47" fill="#68bc90"/>
     </g>
     <g id="locations">
-      <path id="location8" id="location8" class="location"  data-herbs="true" data-tippy-content="8 Robertos Kräutergarten" d="M361.92,587.26A16.48,16.48,0,1,0,329.66,592c2.34,9.49,15.86,20.1,15.86,20.1s15.28-12,16.18-21.87h0A16.32,16.32,0,0,0,361.92,587.26Z" fill="#525252"/>
+      <path id="location8" class="location"  data-herbs="true" data-tippy-content="8 Robertos Kräutergarten" d="M361.92,587.26A16.48,16.48,0,1,0,329.66,592c2.34,9.49,15.86,20.1,15.86,20.1s15.28-12,16.18-21.87h0A16.32,16.32,0,0,0,361.92,587.26Z" fill="#525252"/>
       <path id="location7" class="location" data-straberries="true" data-potatos="true" data-herbs="true" data-carrots="true" data-tippy-content="7 Salate Landmann" d="M541.13,718.11a16.47,16.47,0,1,0-32.26,4.69c2.34,9.48,15.86,20.09,15.86,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,541.13,718.11Z" fill="#525252"/>
       <path id="location6" class="location" data-potatos="true"  data-carrots="true" data-tippy-content="6 Auenhof" d="M193.4,357.83a16.47,16.47,0,1,0-32.26,4.69c2.34,9.49,15.87,20.1,15.87,20.1s15.27-12,16.17-21.87h0A16.52,16.52,0,0,0,193.4,357.83Z" fill="#525252"/>
       <path id="location5" class="location" data-straberries="true" data-potatos="true"  data-tippy-content="5 Lerchenhof" d="M383.07,308.38a16.48,16.48,0,1,0-32.27,4.69c2.35,9.48,15.87,20.09,15.87,20.09s15.28-12,16.18-21.86h0A16.4,16.4,0,0,0,383.07,308.38Z" fill="#525252"/>
