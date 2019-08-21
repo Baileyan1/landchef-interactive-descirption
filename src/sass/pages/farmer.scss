@@ -33,11 +33,12 @@
 
   #section-partners {
     .options {
-      border: 1px solid $Gray2;
+      border: 1px solid $Gray4;
       border-radius: $BorderRadiusStandard;
       padding: 1px;
       display: flex;
       justify-content: stretch;
+      margin: 0 $SizeExtraLarge $SizeLarge $SizeExtraLarge;
 
       .option {
         border-radius: $BorderRadiusStandard;
@@ -45,7 +46,8 @@
         flex-grow: 1;
         text-align: center;
         &.active {
-          background-color: $Gray2;
+          background-color: $Gray4;
+          color: $FontColorInverted;
         }
         &:not(:last-child) {
           margin-right: 1px;
@@ -74,6 +76,7 @@
 
           position: absolute;
           width: 100%;
+          pointer-events: none;
         }
         .item {
           border: solid 1px $Gray1;
