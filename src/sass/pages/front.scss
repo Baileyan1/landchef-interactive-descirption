@@ -572,57 +572,118 @@ blockquote {
 
 /*----------------------Preis Modell------------------*/
 
-.price article {
-  width: 33%;
-  text-align: center;
-  position: relative;
+.price{
+  justify-content: space-between;
+
+  article {
+    width: 33%;
+  
+  }
+
+  .box {
+    border-color: $Gray1;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px -5px #eaeaea;
+ 
+
+    #basic{
+      width: 600px;
+      height: 800px;
+    }
+
+    
+ 
+  }
+
+  .box-outside{
+    margin-top: 25px;
+    width: 100%;
+  }
+
+
+.flexP{
+  display: flex;
 }
-.price article div {
-  border-color: var(--hellblauSecondary);
-  border-width: 1px;
-  border-style: solid;
-  width: 300px;
-  height: 400px;
-  text-align: center;
-  border-radius: 4px;
+.specials{
+margin-bottom: 20%;
 }
-.price p {
+
+.about{
   width: 80%;
-  padding: 30px;
-  margin-bottom: 50px;
+  padding-left: 30px;
+  margin-bottom: 10%;
   text-align: left;
-}
-.price q {
-  color: var(--hellblauSecondary);
+
 }
 
-/*
-#boxStarter {
-  position: absolute;
-  left: 28.5%;
-  top: 80%;
-  width: 35%;
-  text-align: center;
-  visibility: hidden;
+.checkmark{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10%;
+  flex: 0 0 10%;
 }
 
-#boxBasic {
-  position: absolute;
-  left: 28.5%;
-  top: 80%;
-  width: 35%;
-  text-align: center;
-  visibility: hidden;
+
+.descirption{
+  flex: 0 0 70%;
 }
 
-#boxPro {
-  position: absolute;
-  left: 28.5%;
-  top: 80%;
-  width: 35%;
+
+
+p {
+
+}
+.costs {
+  font-size: $SizeLarge;
+  font-family: "Nunito Sans";
+
+}
+
+
+.priceHeader{
+    background-color: $Gray4;
+    height: 30%;
+}
+.basicHeader{
+  background-color: $PrimaryColor;
+  height: 30%;
   text-align: center;
-  visibility: hidden;
-} */
+  
+}
+  
+
+  h2{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 40px;
+    color: white;
+
+  }
+
+#basic{
+ 
+ position: relative;
+  width: 40%;
+  background-color: white;
+  z-index: 1;
+
+}
+
+.box-mitte{
+
+  position: absolute;
+}
+
+#green{
+  color: $PrimaryColor;
+}
+
+
+}
+
 
 /*----------------------Einzelne Box-------------------*/
 
