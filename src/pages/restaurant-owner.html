@@ -22,7 +22,6 @@
             alt="App: Warensuche"
             class="regular-img"
           />
-       
         </div>
       </div>
       <div class="column" id="find-partners">
@@ -38,7 +37,7 @@
   </div>
 
   <!--Termin ausmachen-->
-  <div class="container">
+  <div class="container" id="section-appointment">
     <div class="container-inner columns">
       <div class="column">
         <div>
@@ -51,19 +50,129 @@
         </div>
       </div>
       <div class="column">
-        <div>
-          <img
-            src="/assets/img/Contact@3x.png"
-            alt="Kontaktanzeige"
-            class="regular-img"
-          />
+        <div id="appointment">
+          <div class="bubble"></div>
+
+          <div class="content" id="appointment-step-1">
+            <div class="header">
+              Hans ist erreichbar! <br />
+              Rufe ihn jetzt an.
+            </div>
+            <div class="time-hint">
+              <img src="/assets/img/restaurant/clock.png" class="clock" />Mo. -
+              Fr. 10 - 16 Uhr
+            </div>
+            <div class="actions">
+              <div class="action primary" id="btn-choose-appointment">
+                Termin ausmachen
+              </div>
+              <div class="action secondary" id="btn-call">Anrufen</div>
+            </div>
+          </div>
+
+          <div class="content" id="appointment-step-2" style="display: none;">
+            <div class="header">Einen persönlichen Termin vereinbaren</div>
+            <div class="description">
+              Wähle einen Zeitslot der für dich passt. Hans muss den Termin dann
+              noch bestätigen
+            </div>
+            <div class="calendar">
+              <div class="row">
+                <div class="slot"></div>
+                <div class="slot time">10</div>
+                <div class="slot time">12</div>
+                <div class="slot time">13</div>
+                <div class="slot time">14</div>
+                <div class="slot time">15</div>
+                <div class="slot time">16</div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="1">Mo</div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="2">Di</div>
+                <div class="slot"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="3">Mi</div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="4">Do</div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="5">Fr</div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+                <div class="slot available"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="6">Sa</div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+              </div>
+              <div class="row">
+                <div class="slot day" data-day="0">So</div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+                <div class="slot"></div>
+              </div>
+            </div>
+            <div class="actions">
+              <div></div>
+              <div class="action primary disabled" id="btn-make-appointment">
+                Termin ausmachen
+              </div>
+            </div>
+          </div>
+
+          <div class="content" id="appointment-step-3" style="display: none;">
+            <div class="header">
+              Klasse! Termin angefragt.
+            </div>
+            <div class="description">
+              Wir benachrichtigen dich sobald Hans deine Anfrage gesehen hat.
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!--Bestellung abschicken-->
-  <div class="container block block-dark">
+  <div class="container block block-dark" id="section-ordering">
     <div class="container-inner columns">
       <div class="column">
         <div>
@@ -80,41 +189,28 @@
         </div>
       </div>
       <div class="column">
-        <div class="lists">
-          <div class="items">
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                  <p>Erdbeeren</p>
-              </div> 
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Kartoffeln</p>
-              </div> 
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Kräuter</p>
-              </div> 
-            </div>
-            <div class="item">
-              <div class="inner-left">
-                <p>+</p>
-              </div>
-              <div class="item-inner-right">
-                <p>Karotten</p>
-              </div> 
-            </div>
+        <div class="items">
+          <div class="item">
+            <div class="add" data-amount="5"></div>
+            <div class="name">Kartoffeln, 10kg Kiste</div>
           </div>
+          <div class="item">
+            <div class="add" data-amount="4"></div>
+            <div class="name">Süßkartoffeln, 8Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="4"></div>
+            <div class="name">Karotten, 12Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="1"></div>
+            <div class="name">Schwarze Karotten, 12Kg Kiste</div>
+          </div>
+          <div class="item">
+            <div class="add" data-amount="1"></div>
+            <div class="name">Weiße Karotten, 12Kg Kiste</div>
+          </div>
+          <div id="btn-order" class="disabled">Jetzt Bestellen</div>
         </div>
       </div>
     </div>
@@ -125,4 +221,6 @@
   radar();
   svgReload();
   tippyEverything();
+  appointment();
+  newOrder();
 </script>

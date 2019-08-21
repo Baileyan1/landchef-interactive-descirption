@@ -16,7 +16,8 @@ $(document).ready(() => {
   slickHeader.slick({
     arrows: false,
     infinite: false,
-    initialSlide: 1
+    initialSlide: 1,
+    touchMove: false
   });
 
   // On before slide change
@@ -56,8 +57,7 @@ function pictureCarousel() {
       dots: true,
       adaptiveHeight: false,
       autoplay: true,
-      autoplaySpeed: 2000,
-
+      autoplaySpeed: 2000
     });
   });
 }
