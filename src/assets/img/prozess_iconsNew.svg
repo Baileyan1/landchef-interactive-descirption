@@ -130,7 +130,7 @@
       <path d="M691.7,455.78a1.52,1.52,0,0,0-1.12-.46,1.64,1.64,0,0,0-1.13.46,1.52,1.52,0,0,0-.46,1.12,1.71,1.71,0,0,0,.46,1.13,1.6,1.6,0,0,0,1.13.46,1.59,1.59,0,0,0,1.12-2.71Z" transform="translate(-28.21 -16.48)" fill="#213959"/>
     </g>
   </g>
-  <g id="vegiBox" data-tippy-content="Der Gastronom erhält Lieferung.">
+  <g id="vegiBox" data-tippy-content="Der Gastronom erhält die Lieferung.">
     <circle cx="519.95" cy="487.94" r="56.22" fill="#fff"/>
     <g id="vegiBox-2" data-name="vegiBox">
       <path d="M518.15,533.28h0a1.63,1.63,0,0,0-2.29.28h0a1.61,1.61,0,0,0,.28,2.26l0,0h0a1.64,1.64,0,1,0,2-2.59h0Z" transform="translate(-28.21 -16.48)" fill="#213959"/>

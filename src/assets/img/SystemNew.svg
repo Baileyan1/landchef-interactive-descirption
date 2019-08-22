@@ -16,12 +16,12 @@
     <line x1="243.62" y1="151.03" x2="243.7" y2="211.28" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.97"/>
     <line x1="182.05" y1="150.92" x2="182.05" y2="210.3" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.97"/>
   </g>
-  <g id="angular" data-tippy-content="Angular ist ein Framework, dass die gemeinsame Arbeit an einem Projekt für die Web Version der landchef App vereinfacht.
+  <g id="angular" data-tippy-content="Angular ist ein Framework, wodurch die gemeinsame Arbeit an einem Projekt für die Web Version der landchef App vereinfacht werden kann.
   Mithilfe eines weiteren Framworks (z.B. NativeScript) kann die App für weitere Betriebssystem wie iOS, iPadOS oder Android optimiert werden." data-tippy-placement="left">
     <rect x="167.26" y="437.91" width="91.35" height="90.6" fill="#213959"/>
     <text transform="translate(181.23 483.55)" font-size="18" fill="#fff" font-family="NunitoSans-Regular, Nunito Sans">Angular</text>
   </g>
-  <g id="datenbank" data-tippy-content="Als Datenspeicher kommt eine doku- mentenbasierte Datenbankstruktur zum Einsatz, wie beispielsweise MongoDB. Der Vorteil einer solchen, nicht rela- tionalen, Datenbank liegt in der hohen Anpassbarkeit der Struktur der gespei- cherten Daten. Dies ist besonders hilfreich bei der Entwicklung von Features, wie der anpassbaren Auftragsübersicht." data-tippy-placement="left">
+  <g id="datenbank" data-tippy-content="Als Datenspeicher kommt eine dokumentenbasierte Datenbankstruktur zum Einsatz, wie beispielsweise MongoDB. Der Vorteil einer solchen, nicht relationalen, Datenbank liegt in der hohen Anpassbarkeit der Struktur der gespeicherten Daten. Dies ist besonders hilfreich bei der Entwicklung von Features, wie der anpassbaren Auftragsübersicht." data-tippy-placement="left">
     <ellipse cx="211.88" cy="86.25" rx="23.89" ry="11.52" fill="#213959"/>
     <rect x="188.05" y="25.86" width="47.64" height="61.1" fill="#213959"/>
     <ellipse cx="212.01" cy="26.75" rx="24.54" ry="11.52" fill="#213959" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
